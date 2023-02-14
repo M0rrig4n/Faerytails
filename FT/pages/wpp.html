@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<!-- Metadati -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Presentazione del Web Project Plan" />
+<meta name="keywords" content="testi, racconti, irlanda, fiaba, favola, mitologia, luoghi, divinità, protagonisti, divinita" />
+<meta name="author" content="Crystle Zanini" />
+<!-- Dublin Core -->
+<meta name="DC.Title" content="Web Project Plan" />
+<meta name="DC.Creator" content="Crystle Zanini" />
+<meta name="DC.Subject" content="Raccolta, testi, mitologia, folklore, irlandese" />
+<meta name="DC.Description" content="Presentazione del Web Project Plan" />
+<meta name="DC.Publisher" content="AlterVista" />
+<meta name="DC.Date" content="2023-02" />
+<meta name="DC.Type" content="Item" />
+<meta name="DC.Format" content="text/html, image" />
+<meta name="DC.Language" content="it" />
+<meta name="DC.Rights" content="Copyright 2023, Crystle Zanini. Tutti i diritti sono riservati" />
+<!-- Link al CSS e a Fontawesome -->
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/3aac9635b9.js" crossorigin="anonymous"></script>
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest">
+<!--Titolo-->
+    <title>Web Project Plan</title>
+    </head>
+    
+    <body>
+        <!-- Header con logo -->
+        <header>
+            <a href="../indexFaeTail.html">
+                <img class="logo" src="../img/logoFT-1.png" alt="Logo di Faery Tails" title="Logo di Faery Tails"></a>
+        </header>
+    
+        <!--- Navbar menu, navigazione principale --->
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li class="back-arrow"><a href="../indexFaeTail.html"><i class="fa-solid fa-arrow-left"></i> Indietro</a>
+            <li>
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <!-- dropdown-->
+            <li class="dropbtn"><a href="cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i> Miti e fiabe
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                    <li><a href="#">Ciclo dell'Ulster</a></li>
+                    <li><a href="#">Ciclo Ossianico</a></li>
+                    <li><a href="#">Saghe leggendarie</a></li>
+                    <li><a href="#">Fiabe e folklore</a></li>
+                    <li><a href="#">Ballate</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i> Protagonisti
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="divinita.html">Divinità</a></li>
+                    <li><a href="#">Creature folkloriche</a></li>
+                    <li><a href="#">Eroi</a></li>
+                    <li><a href="#">Altro</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="luoghi-irl.html">Irlanda</a></li>
+                    <li><a href="#">Altri luoghi</a></li>
+                </ul>
+            </li>
+            <li class="ricerca">
+                <input type="text" placeholder="Cerca" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+<!--- Navbar per media queries --->
+<nav id="navbar-media">
+    <ul class="nav-menu">
+        <li class="back-arrow"><a href="../indexFaeTail.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+        <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i></a></li>
+        <!-- dropdown-->
+        <li class="dropbtn"><a href=""><i class="fa-solid fa-dragon"></i>
+                <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-lista">
+                <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                <li><a href="#">Ciclo dell'Ulster</a></li>
+                <li><a href="#">Ciclo Ossianico</a></li>
+                <li><a href="#">Saghe leggendarie</a></li>
+                <li><a href="#">Fiabe e folklore</a></li>
+                <li><a href="#">Ballate</a></li>
+            </ul>
+        </li>
+        <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i>
+                <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-lista">
+                <li><a href="divinita.html">Divinità</a></li>
+                <li><a href="#">Creature folkloriche</a></li>
+                <li><a href="#">Eroi</a></li>
+                <li><a href="#">Altro</a></li>
+            </ul>
+        </li>
+        <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i>
+                <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-lista">
+                <li><a href="luoghi-irl.html">Irlanda</a></li>
+                <li><a href="#">Altri luoghi</a></li>
+            </ul>
+        </li>
+        <!-- Barra di ricerca -->
+        <li class="ricerca">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </li>
+    </ul>
+</nav>
+<!--Fine menu queries-->
+<br>
+<!-- Breadcrumbs -->
+    <!--- main -->
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><i class="fa-solid fa-circle-info"></i> Web Project Plan</li>
+        </ul>
+
+        <!--sezione 1-->
+        <section>
+            
+            <h2 class="tit-cat">Web Project Plan</h2>
+            <div id="wpp-cont">
+            <div class="indice-wpp">
+                <h3 >Indice</h3>
+                <ol>
+                    <li><a class="link-item" href="wpp.html#briefing">Briefing</a></li>
+                    <li><a class="link-item" href="wpp.html#benchmark">Benchmark</a></li>
+                    <li><a class="link-item" href="wpp.html#struttura">Struttura</a></li>
+                    <li><a class="link-item" href="wpp.html#layout">Layout</a></li>
+                    <li><a class="link-item" href="wpp.html#usabilita">Usabilità</a></li>
+                    <li><a class="link-item" href="wpp.html#servizi">Servizi</a></li>
+                    <li><a class="link-item" href="wpp.html#bibliografia">Bibliografia</a></li>
+                </ol>
+            </div>
+            <div class="wpp-intro">
+                <h3>Introduzione</h3>
+                <p>
+                    Prima di realizzare il sito, è necessario progettarlo in maniera adeguata. Il <strong>Web Project Plan</strong> 
+                    può seguire diversi modelli. Nel nostro caso, le fasi seguite sono sette: briefing, benchmark, 
+                    struttura, layout, usabilità, servizi e bibliografia.  <br>Si passa poi alla fase di implementazione, 
+                    in cui mettiamo in pratica tutto ciò che abbiamo teorizzato. <a class="link-item" href="../indexFaeTail.html" target="_blank">Faery Tails</a> è infatti limitatamente 
+                    navigabile, ma presenta il modello delle pagine e del sito in generale, svolgendo il ruolo di 
+                    <em>mock-up</em> statico che solitamente è rappresentato da una o più immagini.<br>
+                    Nella sezione seguente, verrà presentato l'intero <strong>Web Project Plan</strong>, navigabile anche dall'indice 
+                    laterale.
+                </p>
+            </div>
+            </div>
+            <div class="wpp-testo">
+                <h3 id="briefing">1. Briefing</h3>
+                <p>
+                    Il progetto <span class="importante">Faery Tails</span> ha lo scopo di raccogliere miti e fiabe irlandesi, per permettere all’utente di scoprire la
+                    storia e la cultura della civiltà celtica e irlandese attraverso la letteratura del luogo.<br> 
+                    Possiamo quindi definire l’<strong>obiettivo</strong> come archivistico e divulgativo e l’<strong>utente finale</strong> può essere uno studente, uno specialista o una qualsiasi
+                    persona interessata al tema che cerca un sito semplice e accattivante per esplorare la cultura celtica, in particolare
+                    quella irlandese. <br>
+                    Il catalogo non dev’essere difficile da navigare e comprensibile, dando diverse possibilità all’utente
+                    di esplorarlo e di ottenere nuove conoscenze. Nel caso di <strong>Faery Tails</strong>, la <strong>navigazione</strong> può avvenire in diversi modi:<br>
+                    - titoli dei racconti, divisi in Miti, Saghe leggendarie, Fiabe e folklore e Ballate;<br>
+                    - personaggi delle storie, divisi in Divinità, Creature folkloriche, Eroi e Altri; <br>
+                    - mappe dell’Irlanda in cui vengono mostrati alcuni luoghi importanti, divisi in Luoghi d'Irlanda e Altri luoghi, che possiamo leggere facilmente grazie ai collegamenti;<br>
+                    - ed infine, una barra di ricerca. <br>
+                    Importante attenzione dev’essere data all’<strong>estetica</strong>, ai dettagli e all’utilizzo delle immagini, che possano
+                    affascinare anche utenti che, magari, non sarebbero stati interessati all’argomento. I testi possono essere <strong>scaricati</strong>
+                    come <strong>PDF</strong> o come <strong>MP3</strong>, <em>audio book</em>. <br>
+                    A questo si aggiunge la possibilità di unirsi alla <strong>newsletter</strong>, che informa i
+                    membri quando viene aggiornata la collezione e/o aggiunto un item. <br>
+                    Si dovrà dedicare particolare attenzione anche all’utilizzo dei <strong>social media</strong>, soprattutto a
+                    <a class="link-item" href="#">Instagram</a> e <a class="link-item" href="#">TikTok</a> che, grazie all’utilizzo di immagini e video, 
+                    possono allargare il bacino d’utenza. <br>
+                    Il sito è pensato per il <strong>desktop</strong>, ma dev’essere <em>responsive</em> nel modo giusto per renderlo accattivante e funzionale anche su mobile. <br>
+                    I <strong>testi</strong> saranno ottenuti da diversi libri fisici trascritti, da cui possono essere ricavate anche delle immagini, che però verranno cercate
+                    soprattutto in rete, su internet, preferendo sempre l’<strong>open source</strong>. In qualsiasi caso, la fonte sarà sempre citata in una
+                    sezione specifica dedicata alla <a class="link-item" href="wpp.html#bibliografia">bibliografia</a> e alle fonti. <br>
+                    Il <strong>titolo</strong> del sito è stato scelto per il tipo di risorse che presenta, alludendo ovviamente alla parola composta inglese <em>fairytale</em>, “fiaba/favola”. 
+                    Questa è stata modificata in <em><strong>FAE</strong>ry Ta<strong>ILS</strong></em>, dal suono simile, ma il cui scopo è di evocare l’ambiente irlandese (il <strong>Fae</strong>, il popolo e mondo fatato) e
+                    l’aspetto naturale della civiltà celtica (<strong>tails</strong>, code in inglese). <strong>Tails</strong>, infatti, mi ha permesso anche di suggerire il
+                    concetto di continuità tra passato e presente, tramite l’idea di coda che, allungandosi, costituisce la parte più
+                    importante del logo.
+                </p>
+                <h3 id="benchmark">2. Benchmark</h3>
+                <p>
+                    Nella fase di <span class="importante">benchmark</span> vengono individuati eventuali <em>competitors</em> e lo stato dell’arte relativo al tema del nostro sito.
+                    In questo modo possiamo trarre ispirazione oppure scegliere di concentrarci più verso certi dettagli o migliorarne
+                    altri. <br>
+                    Non ho rilevato siti esistenti dedicati ai miti e leggende irlandesi nello specifico, mentre ne esistono altri
+                    che si occupano di mitologia o folklore in generale. Quindi, qualsiasi sito che raccoglie questo tipo di dati ritengo
+                    possa essere considerato un competitor interessante da analizzare. <br>Tra quelli più rilevanti, secondo la mia opinione:<br>
+                    <a class="link-item importante" href="https://fairytalez.com/" target="_blank">Fairytalez.com</a>: raccoglie fiabe e racconti folklorici da tutto il mondo. Il sito sembra essere pensato
+                    principalmente per un device <strong>mobile</strong>, visto il contenuto molto stretto rispetto alla dimensione totale della pagina.
+                    Nella home sono subito presentati, in colonna, diverse fiabe, con titolo, autore, nazionalità e durata di lettura. Sulla
+                    parte destra invece, è presente una colonna composta da diversi tipi di <strong>box di navigazione</strong> ed informazione sul sito:
+                    promozione dell’ebook del sito, la possibilità di aggiungere racconti da parte dell’utente, la newsletter e gruppi di
+                    fiabe o autori popolari, attraverso i quali possiamo raggiungere direttamente gli item. Il logo si trova nella parte
+                    sinistra del menu, nella parte superiore del sito, tramite il quale possiamo navigare filtrando per tipo di racconto
+                    e formato, audio o testo. Personalmente, ho trovato il sito esteticamente <strong>accattivante</strong> e di buon gusto, ma <strong>poco comodo</strong>
+                    da navigare dalla pagina home. Tutte le fiabe sono ordinate per ordine alfabetico e, in tutte le pagine, compresa quella
+                    dell’item, rimane fissa la colonna a destra con promozioni e gruppi di racconti raggruppati secondo diversi filtri. <br>In
+                    <strong>Faery Tails</strong> ho invece preferito rendere le pagine successive alla home più semplici concettualmente, senza perdere
+                    nessun tipo di navigazione. In particolare, nella pagina degli item, ho optato per non inserire nessun box laterale o
+                    sottostante, per evitare di complicare e rendere troppo denso il sito. <br>Da <strong>Fairy Talez</strong> ho preso l’idea di rendere
+                    disponibili i testi anche in formato audio, nonostante nelle pagine item del sito non sia presente la possibilità di
+                    scaricarne l’MP3. Per questo, ho cercato di rendere anche le opzioni di download il più accessibili possibile, essendomi
+                    trovata momentaneamente in difficoltà su <strong>Fairy Talez</strong>, che comunque ho apprezzato moltissimo.<br>
+                    <a class="link-item importante" href="https://theoi.com/" target="_blank">Theoi</a>: raccoglie diversi tipi di risorse riguardo alla mitologia greca. Il sito è fin dalla home molto
+                    denso, pieno di informazioni, che possono provocare una sensazione di <strong>spaesamento</strong> nell’utente, che però viene ridotta
+                    dalla <strong>palette</strong> di colori, poco varia e molto neutra. I colori utilizzati infatti, sono tutte sfumature di marrone e
+                    grigio, molto tenui ed evocativi. <br>La maggior parte della navigazione e dei collegamenti informativi sono nella colonna
+                    di sinistra del sito, con categorie, barra di ricerca, bibliografia e FAQs. Nella colonna centrale, di destra, vengono
+                    mostrate diverse categorie, con immagini e titolo sottostante. Purtroppo, questi elementi non cambiano <strong>stato</strong> in nessun
+                    modo quando l’utente ci passa sopra, mentre nella navigazione laterale, le tabs cambiano colore, anche se di una
+                    sfumatura molto simile a quella originale. <br>Nel menu principale sono presenti diverse voci, dieci in totale. Anche qui,
+                    gli elementi sono numerosi e forse fin troppo <strong>dispersivi</strong>. Nelle pagine di catalogo e di item sono presenti le briciole
+                    di pane, ma la pagina corrente non viene mostrata come attiva nel menu. <br>Come detto precedentemente, il sito è fin troppo
+                    denso e, anche se solo apparentemente, caotico. Ritengo che sia poco intuitivo ad un primo sguardo e l’interattività è
+                    quasi completamente assente. Con l’analisi di questo sito ho deciso di dare un layout comprensibile ed intuitivo a <strong>Faery
+                    Tails</strong> e renderlo un sito <strong>dinamico e responsivo</strong>, cercando di evitare di cadere nell’esagerazione e complicare inutilmente
+                    la navigabilità per favorire effetti esteticamente affascinanti.
+                </p>
+                <h3 id="struttura">3. Struttura</h3>
+                <p>
+                    Nella fase di <span class="importante">struttura</span> si inizia a ideare le relazioni presenti all'interno del sito e come verrà navigato. Per 
+                    questo scopo, utilizziamo la <strong>mappa concettuale</strong> e lo <strong>schema delle dipendenze</strong>.
+                    <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Faery Tails E_R.png" alt="Mappa concettuale di FT" title="Mappa concettuale di FT" />
+                        <span class="importante">Mappa concettuale.</span> La <strong >mappa concettuale</strong> traduce il <a class="link-item" href="wpp.html#briefing">briefing</a> in una rappresentazione grafica, per focalizzare le parole chiave del
+                        progetto, esplicitando le relazioni tra loro. Possiamo parlare di <strong>modello E/R</strong> o ERD (Entities Relations Diagram).
+                        <br>Riguardo a Faery Tails, le entità principali sono <strong>Racconti</strong>, <strong>Protagonisti</strong> e <strong>Luoghi</strong>, tutte suddivise in sub-categorie.
+                        <br>Si può navigare fino ad un item finale, che sia un Protagonista, un Racconto o un Luogo, attraverso il catalogo dei racconti, dei
+                        protagonisti o dei luoghi. In quest’ultimo, grazie alla mappa, si può esplorare l’Irlanda e la raccolta del sito tramite
+                        relazioni tra le tre entità. Allo stesso modo, gli item Protagonisti, Racconti e Luoghi, possono essere navigati da entrambi i
+                        lati attraverso la metanavigazione in cui vengono presentati i protagonisti che compaiono nel racconto, nel luogo oppure i racconti
+                        in cui compaiono i protagonisti e così via.
+                    </div>
+                        <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/FT-schema-dip.png" alt="Schema delle dipendenze" title="Schema delle dipendenze di FT" />
+                        <span class="importante">Schema delle dipendenze.</span> Nello <strong>schema delle dipendenze</strong> mostriamo la struttura gerarchica del sito. La prima pagina è la <a class="link-item" href="../indexFaeTail.html" target="_blank">Home</a>, in cui è presente
+                        la <strong>navigazione principale</strong>, una navbar con all’interno una prima differenziazione di categorie: Miti e Fiabe,
+                        Protagonisti e Luoghi. Nella <strong>Home</strong> sono anche presenti alcune sezioni, come il carosello, l’ultimo racconto aggiunto, i
+                        racconti più popolari e racconto e protagonista del mese, che verranno mantenuti aggiornati costantemente e permettono all’utente
+                        di navigare il catalogo anche senza utilizzare la navigazione principale.<br><a class="link-item" href="map.html" target="_blank">Luoghi</a> indirizza l’utente a una categoria, composta da item che permettono di esplorare il resto del catalogo
+                        attraverso le relazioni tra entità oppure le informazioni presenti nel corpo della pagina. <a class="link-item" href="cat-miti-fiabe.html" target="_blank">Miti e Fiabe</a> e <a class="link-item" href="protagonisti.html" target="_blank">Protagonisti</a>,
+                        allo stesso modo, si dividono in altre categorie, che indirizzano alle pagine di descrizione della sub-categoria
+                        scelta, al cui interno possiamo trovare i diversi collegamenti ai finali item foglia, siano essi racconti o
+                        protagonisti. <br> Infine, nel <strong>footer</strong> sono presenti collegamenti
+                        attraverso i quali l’utente può ricavare più informazioni sul sito, contattare il team tramite e-mail oppure seguire gli
+                        aggiornamenti grazie ai link ai social media. <br>Gli item foglia sono: le pagine dei racconti, dei protagonisti, la mappa e
+                        quelle che presentano collegamenti nel footer, relative ad informare l’utente riguardo al sito. I racconti ed i
+                        protagonisti dipendono direttamente dalla rispettiva lista, che a sua volta dipende direttamente dal catalogo che,
+                        ancora, dipende dalla home. A questi item foglia possiamo però arrivare anche attraverso altre pagine grazie alla
+                        <strong>navigazione contestuale</strong> presente in tutto il sito.
+                    </div>
+                </p>
+                <h3 id="layout">4. Layout</h3>
+                <p>
+                        Se la <a class="link-item" href="wpp.html#struttura">struttura</a> è la concettualizzazione <strong>astratta</strong> del sito, il <span class="importante">layout</span> ne è l’aspetto ipotizzato. Il <strong>wireframe</strong> è il
+                        disegno grafico di quanto teorizzato nelle componenti logiche dell’architettura d’interfaccia attraverso una
+                        rappresentazione visuale di come saranno visualizzate pagine che condividono un template, non necessariamente tutte. <br>Nel
+                        caso di <strong>Faery Tails</strong>, in totale ho teorizzato sei wireframes per completezza: uno per la <a class="link-item" href="wpp.html#wf-home">home</a>, uno per il <a class="link-item" href="wpp.html#wf-catalogo">catalogo</a> (racconti o
+                        protagonisti), uno per la <a class="link-item" href="wpp.html#wf-lista">lista</a> delle risorse, uno per l’<a class="link-item" href="wpp.html#wf-item">item</a> (racconto o protagonista), uno per l' <a class="link-item" href="wpp.html#wf-item-luogo">item di luogo</a> ed infine, uno per la pagina dei <a class="link-item" href="wpp.html#wf-luoghi">luoghi</a>, con la mappa. <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Home.png" alt="Immagine rappresentante il wireframe della Home" title="Wireframe della Home" />
+                        <span id="wf-home" class="importante">Home.</span> Nella pagina iniziale viene mostrata la testata (header) con il logo ed il menu sottostante, che costituisce la
+                        navigazione principale. 
+                        Al suo interno possiamo scegliere se ricercare risorse attraverso il catalogo di <strong>Miti e Fiabe</strong>,
+                        quello dei <strong>Protagonisti</strong>, i <strong>Luoghi</strong> (con al suo interno la mappa collegata a specifici item) oppure cercare nella barra di
+                        <strong>ricerca</strong>.<br> <strong>Miti e Fiabe</strong>, <strong>Protagonisti</strong> e <strong>Luoghi</strong> sono la base per una navigazione secondaria costituita da menu <strong>dropdown</strong>, che
+                        presentano le diverse categorie della raccolta. All’inizio della pagina, troviamo un <strong>carosello</strong>, che varia tra alcune
+                        immagini le quali, grazie a testo e bottoni, descrivono il sito e il suo contenuto e danno una seconda possibilità di
+                        navigare le risorse, sempre attraverso le tre categorie principali: racconti, protagonisti e luoghi. Sotto al carosello
+                        inizia il vero e proprio contenuto della pagina, composto da <strong>due sezioni</strong> principali. La prima è divisa in tre aree:
+                        <br>- l’<strong>ultimo racconto aggiunto</strong>, con la parte iniziale del testo, il bottone per raggiungere la pagina dell’item specifico
+                        oppure quello precedente (ovviamente non il successivo, essendo l’ultima aggiunta) e la possibilità di scaricare
+                        direttamente il file PDF, quello MP3 o entrambi; <br>- nel lato destro notiamo l’area che presenta la classifica dei cinque
+                        <strong>racconti più cliccati</strong>, che possiamo leggere grazie al diretto collegamento agli item; <br> -infine, una piccola zona in cui
+                        possiamo unirci alla <strong><em>newsletter</em></strong>, scrivendo la mail e cliccando il bottone. <br>Nella <strong>seconda sezione</strong>, che termina il
+                        contenuto della pagina, sono presenti due divisioni, entrambe con lo stesso template: titolo dell’area (mito del mese o
+                        protagonista del mese), immagine a sinistra, testo a destra con titolo e bottone per raggiungere l’item e i links per
+                        scaricare il file PDF o MP3.
+                        <br>Alla fine della pagina, avremo il <strong>footer</strong>, o pié di pagina, con il collegamento a tutte le possibili pagine che possono
+                        fornire informazioni sul sito, il progetto, le risorse, il team di lavoro ed i social media. <br>Nel resto delle pagine, ciò
+                        che rimarrà fisso saranno l’<strong>header</strong>, il <strong>footer</strong> ed il <strong>menu</strong>, con il collegamento alla pagina attiva, corrente, evidenziato.
+                        Il menu rimarrà nella parte superiore dello schermo quando l’utente scrolla verso il basso.</div><br>
+                        <div class="wf-cont">
+                        <img src="../img/wpp-img/Catalogo-racconti.png" alt="Immagine rappresentante il wireframe del catalogo" title="Wireframe del catalogo" />
+                        <span id="wf-catalogo" class="importante">Catalogo.</span> Nella pagina <strong>catalogo</strong> osserviamo lo stesso header, footer e menu, sticky. In quest’ultimo però, l’elemento evidenziato
+                        sarà quello del catalogo <strong>attivo</strong> e, sulla sinistra, sarà presente un <strong>link</strong> alla pagina precedente.
+                        Scesi dalla Home, verranno inserite le cosiddette <strong>breadcrumbs</strong>: un tipo di pagination legato alla gerarchia del sito
+                        che permette all’utente di controllare il percorso seguito fino alla pagina corrente e di navigare anche le pagine
+                        precedenti che dipendono da quella attiva. Il <strong>contenuto</strong> della pagina è molto semplice: titolo del catalogo e <strong>cards</strong> che
+                        collegano l’utente alla descrizione della raccolta e alla lista delle risorse. Il numero di titoli e cards varia a
+                        seconda delle categorie interne. Dalle <strong>cards</strong> possiamo raggiungere le pagine dipendenti da quella attuale, cioè le liste
+                        e descrizioni.</div>
+                        <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Categoria1.png" alt="Immagine rappresentante il wireframe della lista" title="Wireframe della lista" />
+                        <span id="wf-lista" class="importante">Lista.</span> Questo tipo di pagina può essere raggiunto tramite le <strong>cards</strong> del
+                        catalogo, la <strong>metanavigazione</strong> o la <strong>navigazione</strong> contestuale presente nel body delle
+                        altre pagine.Gerarchicamente la lista dipende dal catalogo.
+                        Prima di tutto, saranno presenti, ovviamente, gli elementi in comune: header con logo, menu con navigazione secondaria,
+                        pagina attiva evidenziata e footer con le informazioni. Nel menu principale, anche in questa pagina, come in tutte
+                        quelle che dipendono, direttamente o indirettamente, da Home, sarà presente un <strong>link</strong> alla pagina precedente sulla
+                        sinistra. Sotto alla navigazione principale troviamo le <strong>breadcrumbs</strong>, con il percorso effettuato per raggiungere la
+                        pagina attuale e la possibilità di navigare quelle precedenti. <br>Il <strong>contenuto</strong> della pagina è costituito dal titolo e due o
+                        tre sezioni. La <strong>prima</strong> area contiene link ordinati orizzontalmente che permettono di raggiungere la raccolta (pagina
+                        catalogo), la sezione lista della pagina e la categoria direttamente successiva, di seguito abbiamo l’indice e la
+                        descrizione della categoria. La <strong>seconda</strong> sezione può avere un’eventuale <strong>timeline</strong>, non necessaria e sostituibile con altri
+                        tipi di navigazione, adatti al tipo di risorsa. Infine, la <strong>terza</strong> sezione sarà costituita dalla lista degli item foglia
+                        dipendenti dalla categoria, tutti link diretti. Possono essere divisi a seconda della <strong>cronologia</strong> oppure dell’ordine
+                        <strong>alfabetico</strong>, a seconda della necessità. <br>Nel caso dei racconti, ho preferito seguire la linea temporale, presente nella
+                        seconda sezione, mentre nella pagina categoria dei protagonisti ho scelto di non utilizzare la timeline e di ordinare
+                        gli items in ordine alfabetico. Il wireframe mostrato è quello di una categoria di <strong>racconti</strong>, più completo, con le tre
+                        sezioni.</div><br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Item.png" alt="Immagine rappresentante il wireframe dell'item" title="Wireframe dell'item" />
+                        <span id="wf-item" class="importante">Item.</span> Nella parte superiore individuiamo l’header, il menu principale con pagina attuale evidenziata, link alla pagina precedente e, nella
+                        parte inferiore, il footer con le informazioni.
+                        Sotto il menu troviamo le <strong>breadcrumbs</strong>, con il percorso compiuto dall’utente, che può tornare facilmente alle pagine
+                        precedenti. Nel <strong>contenuto</strong> della pagina possiamo osservare il titolo dell’item e la sezione che contiene testo e
+                        immagine. Nella parte sinistra verrà mostrata un’immagine relativa all’item, sopra ai link per il <strong>download</strong> del file in
+                        formato PDF o MP3. In alto, nella parte sinistra, i <strong>link</strong> all’item precedente (se presente), all’intera lista degli item
+                        della stessa raccolta e all’item successivo (se presente). Di seguito, un’area con <strong>informazioni</strong> sull’item, cioè la categoria a cui
+                        appartiene l’item e le risorse in cui l’item compare oppure che contiene. Ad esempio, se ci troviamo nella pagina di un
+                        racconto, nei dettagli verranno elencati i protagonisti presenti in esso. Al contrario, se ci troviamo nella pagina di
+                        un protagonista, verranno elencati i racconti in cui esso compare. Infine, il <strong>testo</strong> relativo all’item, con al suo
+                        interno l’immancabile <strong>navigazione contestuale</strong>.</div> <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Item-luogo.png" alt="Immagine rappresentante il wireframe dell'item del luogo" title="Wireframe dell'item del luogo" />
+                        <span id="wf-item-luogo" class="importante">Item di luogo.</span> Come tutte le pagine esclusa la Home, osserviamo subito l'header con il logo, che ci indirizza sempre
+                        alla pagina principale, il menu e il footer. Questa pagina può essere raggiunta tramite quella dei <strong>Luoghi</strong>, in cui sono presenti le diverse mappe e la lista
+                        dei luoghi, suddivisi in <strong>Irlanda</strong> ed <strong>Altri luoghi</strong>. Gli elementi sono gli stessi della pagina item generale, cambia solo l'ordine e il layout. <br>
+                        Dopo le <strong>breadcrumbs</strong> e il titolo, entriamo nel contenuto vero e proprio. In alto possiamo vedere la <strong>pagination</strong> che ci porta 
+                        all'item precedente, successivo o all'intero catalogo di item dello stesso tipo. Di seguito, un indice a sinistra e, di fianco, testo di introduzione alla categoria.
+                        A seguire, il <strong>nome</strong> dell'item, un'immagine rappresentativa a sinistra e, a destra, il testo. Sotto a ciò presenteremo le <strong>relazioni</strong> che l'item che stiamo
+                        analizzando intraprende con altri item. Ad esempio, che protagonisti hanno solcato il terreno di questo luogo o che eventi sono accaduti nella zona.<br>
+                        Questo schema verrà seguito dal resto degli item di luogo della categoria, fino all'ultimo.
+                    </div> <br>
+                    <div class="wf-cont">
+                        <img src="../img/wpp-img/Mappa.png" alt="Immagine rappresentante il wireframe della pagina Luoghi" title="Wireframe della pagina Luoghi" />
+                        <span id="wf-luoghi" class="importante">Luoghi.</span> In questa pagina verrà presentata una <strong>mappa</strong> dell’Irlanda e delle zone circostanti in cui avvengono eventi legati a
+                        specifici miti, scelti in base all’importanza e all’eterogeneità.
+                        Prima di tutto, vediamo l’header con il logo, il menu principale con la pagina corrente evidenziata e link diretto alla pagina
+                        gerarchicamente precedente. Sotto il menu saranno presenti le <strong>breadcrumbs</strong>, seguite dal contenuto della pagina. <br>Al
+                        centro, il titolo della pagina e una semplice area divisa in <strong>due colonne</strong>. Nella colonna di sinistra, verranno mostrate
+                        le diverse categorie di Miti e Fiabe, divise in <strong>tabs</strong>. Quando l’utente passa sopra alle tabs, quella corrente verrà
+                        evidenziata come attiva e comparirà il <strong>testo</strong> sulla destra, con l’elenco dei luoghi scelti e una breve descrizione,
+                        contenente la <strong>navigazione contestuale</strong> composta da link diretti ad item. Nella colonna di destra verrà invece mostrata la
+                        <strong>mappa</strong> relativa alla categoria su cui l’utente <em>“hovera”</em>. Questa funzionalità sarà ottenuta tramite l’uso di <strong>Javascript</strong> e
+                        di un semplice codice contenente <em>“swtich”</em> e i diversi <em>“case”</em>, ognuno legato ad una categoria e mappa. 
+                        <br>Sotto alle <strong>tabs</strong> e alle mappe, troveremo la lista dei luoghi citati nel testo all'interno di <strong>accordions</strong>, che ci guidano verso pagine di categorie dei luoghi che contengono direttamente gli <strong>items</strong>.
+                        Questi ultimi e il testo all'interno delle <strong>tabs</strong> ci permettono di raggiungere direttamente anche items di <strong>Miti</strong> oppure <strong>Personaggi</strong>, non solo <strong>Luoghi</strong>.
+                        <br>Infine, nella
+                        parte inferiore troveremo il <strong>footer</strong> con le informazioni sul sito ed i contatti.
+                    </div> <br>
+                    <div class="wf-cont"><span class="importante">Passo successivo.</span> Dopo questi passaggi, solitamente si arricchisce il <strong>wireframe</strong> con elementi grafici, per ottenere il mockup, che
+                        rappresenta staticamente l’oggetto teorizzato inizialmente. Nel nostro caso, il <strong>mockup</strong> è direttamente il sito
+                        presentato, non una semplice immagine, sebbene limitatamente navigabile.</div>
+                </p>
+                <h3 id="usabilita">5. Usabilità</h3>
+                <p>
+                    In questa fase dichiariamo le norme di <strong>usabilità</strong> per garantire l’efficacia e l’efficienza della risorsa progettata.
+                    <span class="importante">Faery Tails</span> è pensato per venire incontro, il più possibile, alle necessità dell’utente finale. Per raggiungere questo
+                    obiettivo, ho optato per diversi accorgimenti. <br>Lo strumento di <strong>navigazione principale</strong>, il menu, comprendente di
+                    <strong>dropdown</strong>, ottiene la classe <em>sticky</em> quando l’utente si muove verso il basso, ciò significa che, in qualsiasi posizione
+                    della pagina ci si trovi, possiamo sempre muoverci attraverso di esso, che rimane nella parte superiore del sito. Il
+                    logo permette di tornare sempre alla pagina iniziale del sito, cioè la <strong>home</strong>. Nelle pagine successive a quest’ultima,
+                    troveremo sempre, nella parte sinistra del menu, un <strong>link</strong> verso la pagina precedente e, sotto la navigazione principale,
+                    le briciole di pane, o <strong>breadcrumbs</strong>. Tutti questi elementi danno la possibilità, fin da subito, di navigare facilmente il
+                    sito nella sua interezza. In più, la <strong>navigazione contestuale</strong>, presente nei testi, nei <strong>box</strong> di approfondimento laterali e
+                    nelle diverse sezioni del sito, collega le pagine tra loro tramite associazioni come affinità di argomento, dipendenza o
+                    contenuto. Lo scopo è, infatti, di non obbligare mai l’utente ad utilizzare il pulsante indietro del browser, ma di
+                    sfruttare al meglio i diversi livelli gerarchici di navigazione del sito. <br>I <strong>font</strong> scelti sono due, <a class="link-item" href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a> e <a class="link-item" href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a>, 
+                    il primo sarà utilizzato per il testo, mentre il secondo per i titoli e gli headings. I due font sono simili tra loro per evitare lo spaesamento dell'utente ma ottenere comunque una grafica elegante, pratica e mai noiosa. 
+                    I <strong>colori</strong> principali sono due, con diverse sfumature: il verde dello sfondo del sito, dello
+                    sfondo delle sezioni, del testo e titolo ed il giallo chiaro degli elementi navigabili e dei bottoni. I
+                    colori base, cioè il verde e il dorato, sono stati scelti per il loro legame con la cultura celtica e per lo scopo
+                    divulgativo del sito. Lo schema dei colori è di tipo <strong>analogo</strong>, con diversi livelli di contrasto. In questo modo, il sito
+                    rimane riconoscibile graficamente e strutturalmente. Il <strong>layout</strong> delle pagine, infatti, più o meno semplice, è simile in
+                    tutto il sito, mantenendo la semplicità di navigazione e comprensione del contenuto. <br>Nelle pagine di categorie e <strong>lista</strong> è
+                    presente anche un altro tipo di navigazione, quella <strong>inline</strong> che, tramite link espliciti permette di raggiungere alcune
+                    specifiche sezioni all’interno della stessa pagina. Il canale di navigazione corrente viene sempre evidenziato ed ogni
+                    collegamento, di qualsiasi tipo, cambia colore quando ci si passa sopra. Si è cercato di evitare il più possibile testi
+                    lunghi continuativi, utilizzando paragrafi, titoli ed enfatizzazione delle parole chiave per permettere una lettura
+                    selettiva. Per le immagini vengono utilizzati gli attributi <strong>title</strong> e <strong>alt</strong>, che contribuiscono a
+                    semplificare la navigazione e l’accessibilità per tutti i tipi di utente. Sono state usate <strong>icone</strong> ovunque possibile,
+                    evocando il tipo di pagina che verrà raggiunta cliccando il collegamento.
+                </p>
+                <h3 id="servizi">6. Servizi</h3>
+                <p>
+                    Oltre al menu orizzontale <strong>principale</strong>, sono stati pensati ed utilizzati <strong>strumenti di browsing</strong> alternativi. Ad esempio, diversi tipi di
+                    <strong>pagination</strong>, che permettono all’utente di muoversi tra item successivi e precedenti oppure raggiungere l’intera lista di
+                    items. Gli item possono essere navigati e ricercati attraverso la <strong>navigazione contestuale</strong> presente in altri pagine e
+                    items, oppure le <strong>categorie</strong>, di diversi livelli. <br>Oltre alla pagina home iniziale, tutte le altre presentano, all'interno del menu, un <strong>link</strong> alla
+                    pagina gerarchicamente precedente e <strong>briciole di pane</strong> che, mostrando il percorso compiuto dall’utente verso la pagina
+                    attuale, gli permettono di muoversi attraverso il sito tramite le pagine consultate. <br>Nelle pagine di catalogo possono
+                    essere presenti strumenti come <strong>linee temporali</strong> e <strong>mappe</strong>, che aiutano l’utente a comprendere meglio gli item e la
+                    categoria e arricchiscono la navigazione. <br>Come strumenti di <strong>interazione</strong> possiamo incontrare, in tutto il sito, bottoni,
+                    <strong>dropdown</strong>, <strong>tabs</strong>, un <strong>carosello</strong>, immagini <strong>modali</strong> nelle pagine di catalogo che aumentano di dimensione quando l’utente
+                    <em>“hovera”</em> sui di esse ed <strong>accordions</strong>. In questo modo, il desing viene reso accattivante e l’utente può vivere il
+                    sito in maniera dinamica, vista la facilità di navigazione e la semplicità del layout, comunque pensato per essere il
+                    più esteticamente attraente possibile evitando di complicare e addensare le pagine.
+                </p>
+                <h3 id="bibliografia">7. Bibliografia</h3>
+                <p>
+                    Per la <strong>progettazione</strong> del sito:
+                    <ul>
+                    <li><a class="link-item" href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Tomasi F.</a>, Organizzare la conoscenza: Digital Humanities e Web semantico. Un percorso tra archivi, biblioteche e musei,
+                    Milano, Editrice Bibliografica, 2022;</li>
+                    <li><a class="link-item" href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Tomasi F.</a>, Metodologie informatiche e discipline umanistiche, Carocci, Roma 2008;</li>
+                    <li><a class="link-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                    <li><a class="link-item" href="https://stackoverflow.com/" target="_blank">Stackoverflow</a></li>
+                    </ul>
+                    Per le <strong>risorse</strong> presenti nel sito:
+                    <ul>
+                        <li><a class="link-item" target="_blank" href="https://en.wikipedia.org/wiki/T._W._Rolleston">Rolleston T.W.</a>, I miti celtici, Milano, Longanesi, 2021;</li>
+                        <li><a class="link-item" target="_blank" href="https://it.wikipedia.org/wiki/William_Butler_Yeats">Yeats W. B.</a>, Fiabe irlandesi, Roma, Newton Compton, 2021;</li>
+                        <li><a class="link-item" target="_blank" href="https://fontawesome.com">Font Awesome</a></li>
+                        <li><a class="link-item" target="_blank" href="https://express.adobe.com">Express Adobe</a></li>
+                        <li><a class="link-item" target="_blank" href="https://it.wikipedia.org/wiki/Pagina_principale">Wikipedia</a></li>
+                        <li><a class="link-item" target="_blank" href="https://fonts.google.com/">Google Fonts</a></li>
+                        <li><a class="link-item" target="_blank" href="https://www.google.it/maps">Google Maps</a></li>
+                        <li><a class="link-item" target="_blank" href="https://www.google.com/imghp?hl=it_it">Google immagini</a></li>
+                        <li><a class="link-item" target="_blank" href="https://favicon.io/">Favicon.io</a></li>
+                        <li><a class="link-item" target="_blank" href="https://www.lucidchart.com/">Lucidchart</a></li>
+                        <li><a class="link-item" target="_blank" href="https://balsamiq.com/">Balsamiq</a></li>
+                        <li><a class="link-item" target="_blank" href="https://www.flickr.com/">Filckr</a></li>
+                    </ul>
+
+                </p>
+            </div>
+        </section>
+    </main>
+<!-- Footer Section -->
+<div class="footercon">
+    <div class="footerlinks">
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Chi siamo</h3>
+                <a href="#">Il progetto</a>
+                <a class="active-page" href="wpp.html">Web Project Plan</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footerlinkitems">
+                <h3>Contattaci</h3>
+                <a href="/">Contatti</a>
+                <a href="/">FAQ</a>
+                <a href="/">Unisciti a noi</a>
+            </div>
+        </div>
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Social Media</h3>
+                <a href="/">Facebook</a>
+                <a href="/">Instagram</a>
+                <a href="/">Twitter</a>
+                <a href="/">TikTok</a>
+            </div>
+        </div>
+    </div>
+    <section class="socialmedia">
+        <div class="socialmediawrap">
+            <p class="websiteright">Crystle Zanini - Faery Tails 2023.
+                <br>Creato il: 5.02.2023 | Ultimo aggiornamento: 14/02/2023
+            </p>
+            <div class="socialicons">
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+    </body>
+    <script type="text/javascript" src="../js/main.js"></script>
+    
+    </html>

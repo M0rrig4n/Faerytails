@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<!-- Metadati -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Descrizione del Connacht e delle contee contenute" />
+    <meta name="keywords" content="testi, racconti, irlanda, fiaba, favola, mitologia, luoghi, divinità, protagonisti, divinita" />
+    <meta name="author" content="Crystle Zanini" />
+    <!-- Dublin Core -->
+    <meta name="DC.Title" content="Connacht" />
+    <meta name="DC.Creator" content="Crystle Zanini" />
+    <meta name="DC.Subject" content="Raccolta, testi, mitologia, folklore, irlandese" />
+    <meta name="DC.Description" content="Descrizione del Connacht e delle contee contenute" />
+    <meta name="DC.Publisher" content="AlterVista" />
+    <meta name="DC.Date" content="2023-02" />
+    <meta name="DC.Type" content="Item, Collection" />
+    <meta name="DC.Format" content="text/html, image" />
+    <meta name="DC.Relation" content="isContainedIn Luoghi, Protagonisti e Miti, Contains Protagonisti e Miti" />
+    <meta name="DC.Language" content="it" />
+    <meta name="DC.Rights" content="Copyright 2023, Crystle Zanini. Tutti i diritti sono riservati" />
+    <!-- Link al CSS e a Fontawesome -->
+    <link href="../css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/3aac9635b9.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Titolo-->
+    <title>Luoghi d'Irlanda - Connacht</title>
+    </head>
+    
+    <body>
+        <!-- Header con logo -->
+        <header>
+            <a href="../indexFaeTail.html">
+                <img class="logo" src="../img/logoFT-1.png" alt="Logo di Faery Tails" title="Logo di Faery Tails"></a>
+        </header>
+    
+        <!--- Navbar menu, navigazione principale --->
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li class="back-arrow"><a href="luoghi-irl.html"><i class="fa-solid fa-arrow-left"></i> Indietro</a>
+            <li>
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <!-- dropdown-->
+            <li class="dropbtn"><a href="cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i> Miti e fiabe
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                    <li><a href="#">Ciclo dell'Ulster</a></li>
+                    <li><a href="#">Ciclo Ossianico</a></li>
+                    <li><a href="#">Saghe leggendarie</a></li>
+                    <li><a href="#">Fiabe e folklore</a></li>
+                    <li><a href="#">Ballate</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i> Protagonisti
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="divinita.html">Divinità</a></li>
+                    <li><a href="#">Creature folkloriche</a></li>
+                    <li><a href="#">Eroi</a></li>
+                    <li><a href="#">Altro</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a class="active-page" href="#">Irlanda</a></li>
+                    <li><a href="#">Altri luoghi</a></li>
+                </ul>
+            </li>
+
+            <li class="ricerca">
+                <input type="text" placeholder="Cerca" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+    <!--- Navbar per media queries --->
+    <nav id="navbar-media">
+        <ul class="nav-menu">
+            <li class="back-arrow"><a href="luoghi-irl.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i></a></li>
+            <!-- dropdown-->
+            <li class="dropbtn"><a href=""><i class="fa-solid fa-dragon"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                    <li><a href="#">Ciclo dell'Ulster</a></li>
+                    <li><a href="#">Ciclo Ossianico</a></li>
+                    <li><a href="#">Saghe leggendarie</a></li>
+                    <li><a href="#">Fiabe e folklore</a></li>
+                    <li><a href="#">Ballate</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="divinita.html">Divinità</a></li>
+                    <li><a href="#">Creature folkloriche</a></li>
+                    <li><a href="#">Eroi</a></li>
+                    <li><a href="#">Altro</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a class="active-page" href="luoghi-irl.html">Irlanda</a></li>
+                    <li><a href="#">Altri luoghi</a></li>
+                </ul>
+            </li>
+            <!-- Barra di ricerca -->
+            <li class="ricerca">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+    <!--Fine menu queries-->
+    <br>
+    <!-- Breadcrumbs -->
+    <ul class="breadcrumb">
+        <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi</a></li>
+        <li><a href="luoghi-irl.html"><i class="fa-solid fa-location-dot"></i> Irlanda</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> Provincia del Connacht</li>
+    </ul>
+    <!--- main -->
+    <main>
+        <section class="cm-cont">
+            <h2>Provincia del Connacht</h2>
+            <div class="cm-item">
+                <div class="nav-testo">
+                    <a href="luoghi-irl.html"><i class="fa-solid fa-arrow-left"></i>
+                        Luoghi d'Irlanda</a>
+                    <a href="map.html#luoghi-lista"><i class="fa-solid fa-map-location-dot"></i>
+                        Tutti i luoghi</a>
+                    <a href="leinster.html">
+                        Provincia del Leinster
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <br>
+                <div class="indice">
+                    <p>Indice:</p>
+                    <ul>
+                        <li><a href="luoghi-irl.html#intro">Introduzione</a></li>
+                        <li><a class="active-page" href="#">Provincia del Connacht</a></li>
+                        <li><a href="leinster.html">Provincia del Leinster</a></li>
+                        <li><a href="#">Provincia di Munster</a></li>
+                        <li><a href="#">Altre zone irlandesi</a></li>
+                    </ul>
+                </div>
+                <div class="irlanda-cont">
+                    <h3 id="connacht">Provincia del Connacht</h3>
+                    <p>
+                        Il <span class="importante">Connacht</span> è la più occidentale delle quattro province
+                        della <strong>Repubblica d'Irlanda</strong> ed è la meno vasta per territorio, sia per
+                        superficie cheper numero di contee.
+                        Abitata in età neolitica da tribù celtiche, fu uno dei regni in cui queste confluirono all’inizio dell’epoca storica;
+                        nel V sec. fu evangelizzata da <a class="link-item" href="">San Patrizio</a>. Dopo la conquista inglese nel XVI secolo subì una debole colonizzazione
+                        mantenendo, rispetto al resto del paese, i tipici caratteri della civiltà gaelica. Il Connacht è bagnato come tutte le altre province dallo <strong>Shannon</strong>, il fiume più lungo dell'arcipelago britannico: il
+                        corso dello Shannon segna gran parte del confine orientale con il <a class="link-item" href="leinster.html">Leinster</a>. Essendo soltanto quattro e tutte di dimensioni non particolarmente differenti, le province irlandesi sono tutte
+                        caratterizzati da zone interne piuttosto pianeggianti o collinari interrotte talvolta da paludi e torbiere, ed in questo
+                        non differisce neanche il <strong>Connacht</strong>. Le montagne sono situate nei pressi delle zone costiere e danno a volte luogo a
+                        impervie scogliere.
+                        <br>
+                        Per saperne di più, visita la pagina <a class="link-item" href="https://it.wikipedia.org/wiki/Connacht" target="_blank"><i class="fa-brands fa-wikipedia-w"></i> Connacht</a>.
+
+                        <br> Le contee del <strong>Connacht</strong> sono cinque:
+                    <ol>
+                        <li><a class="link-item importante" href="luoghi-irl.html#galway">Galway</a></li>
+                        <li><a class="link-item importante" href="luoghi-irl.html#leitrim">Leitrim</a></li>
+                        <li><a class="link-item importante" href="luoghi-irl.html#mayo">Mayo</a></li>
+                        <li><a class="link-item importante" href="luoghi-irl.html#roscommon">Roscommon</a></li>
+                        <li><a class="link-item importante" href="luoghi-irl.html#sligo">Sligo</a></li>
+                    </ol>
+                    </p>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="galway">Contea di Galway</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/galway.jpg" />
+                            <span class="importante">Galway</span> è una contea situata sulla costa occidentale
+                            della Repubblica d'Irlanda. Fa parte della provincia irlandese del <strong>Connacht</strong>
+                            e confina a nord con la contea di <strong>Mayo</strong>, a nord-est con la contea di <strong>Roscommon</strong>, ad est con
+                            l'Offaly, a sud-est con la
+                            contea di Tipperary e a sud con la contea di Clare, mentre si affaccia ad ovest sull'Oceano
+                            Atlantico e a sud-ovest
+                            sulla <strong>Galway Bay</strong>. Il suo capoluogo è la città di <strong>Galway</strong>, da cui prende il nome ed è la
+                            seconda contea d'Irlanda per dimensione, superata soltanto dalla contea di <a
+                            class="link-item" href="#">Cork</a>.<br>
+                            La parola Galway deriva da quella gaelica <em>Gallimh</em>, derivata direttamente dalla città capoluogo. Significa null'altro che
+                            "pietroso" in riferimento al fiume <strong>Corrib</strong> che scorre per pochi chilometri dall'omonimo lago attraverso la città prima di
+                            gettarsi nell'Atlantico. Originariamente infatti era il fiume a chiamarsi <em>Gallimh</em> mentre il nome completo
+                            dell'insediamento era <em>Dún Bhun na Gaillimhe</em> ("forte sulla foce del Gaillimh").
+                            <br>
+                            Di questo luogo possiamo citare: <strong>Dunmore</strong>.
+                            <br>
+                        </div>
+                            <div class="dettagli-item">
+                                Questo luogo compare in:
+                                <br>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Il suonatore di cornamusa e il Pooka</a>
+                                <br>In questo luogo compaiono: <br>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Pooka</a>
+                                </li>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="leitrim">Contea di Leitrim</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/leitrim.jpg" />
+                            <span class="importante">Leitrim</span> è una contea settentrionale del
+                            <strong>Connacht</strong>, nella Repubblica d'Irlanda. Confina a nord col Donegal, a
+                            nord-est con la
+                            nordirlandese Fermanagh, ad est col Cavan, a sud est con Longford, a sud-ovest con <strong>Roscommon</strong>
+                            e ad ovest con <strong>Sligo</strong>,
+                            mentre a nord-ovest con l'Oceano Atlantico. La county town è <strong>Carrick-on-Shannon</strong>. Il nome
+                            Leitrim deriva dal gaelico Liatroim che significa letteralmente "cresta grigia".
+                            <br>Il Leitrim, seppure affacciandosi per un brevissimo tratto sulla baia di Donegal,
+                            separando Sligo e Donegal, è una
+                            contea per lo più dell'entroterra, piccola di dimensioni, poco abitata e caratterizzata da
+                            un numero così alto di
+                            specchi d'acqua e fiumi, al punto che c'è uno scherzoso modo di dire in Irlanda secondo il
+                            quale la terra nel Leitrim si
+                            venda a galloni e non ad acri.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="mayo">Contea di Mayo</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/mayo.jpg" />
+                            <span class="importante">Mayo</span> (<em>Maigh Eo</em> in gaelico irlandese) è una delle
+                            trentadue contee tradizionali d'Irlanda e una delle ventisei contee moderne della Repubblica
+                            d'Irlanda,
+                            situata a ovest-nord-ovest dell'isola d'appartenenza, nella provincia del Connacht; il
+                            capoluogo è <strong>Castlebar</strong>.
+                            Seguendo la tendenza di tutta l'isola d'Irlanda, pianeggiante al centro e montagnosa lungo
+                            le coste specialmente
+                            occidentali, il Mayo riassume queste caratteristiche totalmente, presentando ambienti
+                            tendenzialmente pianeggianti o
+                            collinari comunque dall'andamento dolce all'interno e nella zona orientale e al contrario
+                            zone impervie e spesso
+                            inospitali contraddistinte da altopiani e massicci montuosi a ridosso della costa.<br>
+                            Di questo luogo possiamo citare: <strong>Moyrein</strong> e <strong>Piana di Moytura</strong>
+                            <br>
+                        </div>
+                            <div class="dettagli-item">
+                                Questo luogo compare in:
+                                <br>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Tuátha dé Danaan-Introduzione</a>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Battaglie contro i Firbolg</a>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Seanchan il bardo e il re dei gatti</a>
+                                <br>In questo luogo compaiono: <br>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Tuátha dé Danaan</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="dagda.html">Dagda</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Firbolg</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Fomori</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="milesi.html">Seanchan</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="milesi.html">Milesi</a>
+                                </li>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="roscommon">Contea di Roscommon</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/roscommon.jpg" />
+                            <span class="importante">Roscommon</span> (in gaelico irlandese <em>Ros Comáin</em>) è una contea
+                            tradizionale e amministrativa dell'Irlanda centrale, nella
+                            provincia del Connacht e quindi politicamente della Repubblica d'Irlanda. Confina, in senso
+                            orario da ovest, con le
+                            contee di Mayo, Sligo, Leitrim, Longford, Westmeath, Offaly e Galway.
+                            Il nome <strong>Roscommon</strong> deriva dal gaelico irlandese <em>Ros Comáin</em>, che significa nient'altro che
+                            "Zona collinare boscosa di
+                            Coman", dal santo <strong>San Coman</strong> che predicò in questa regione e a cui gli abitanti della contea
+                            sono comunque devoti.
+                            Per gran parte del territorio, la contea è formata dalla vasta piana di calcare che
+                            interessa quasi tutte le midlands
+                            irlandesi, ed il paesaggio si presenta prettamente pianeggiante o poco collinare, con poche
+                            rocce grigiastre che
+                            fuoriescono da terreno. Nel nord-est, nel confine col Leitrim, si ergono i <strong>Monti Braulieve</strong>,
+                            pareti rocciose piuttosto
+                            ripide e che terminano in sommità piatte e abbastanza basse, con la cima più alta nel <strong>Monte
+                            Cashel</strong>; nel nord-ovest,
+                            invece, sono presenti i <strong>Curlew</strong>, molto simili agli altri, che delimitano il confine con
+                            Sligo. Ad est invece c'è la
+                            catena degli <strong>Slieve Bawn</strong>, formata di arenaria ma sempre con altitudini piuttosto basse.
+                            Il Roscommon contiene un numero molto elevato di fiumi e laghi. Lo <strong>Shannon</strong>, fiume più grande
+                            d'Irlanda, forma praticamente tutto il confine orientale della contea.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="sligo">Contea di Sligo</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/sligo.jpg" />
+                            <span class="importante">Sligo</span> è una contea dell'Irlanda, situata nella parte
+                            nord occidentale della provincia del <strong>Connacht</strong>. Confina ad est con il
+                            Leitrim, a sud-est col Roscommon, a sud ed ovest con il Mayo. Si affaccia a nord-ovest
+                            sull'Oceano Atlantico.
+                            Contrariamente a quanto erroneamente spesso creduto, Sligo non confina invece col Donegal,
+                            dal quale è separato dal
+                            piccolo tratto costiero di Leitrim lungo soltanto 7 km. L'Irlanda del Nord dista invece
+                            poche decine di chilometri.
+                            L'omonima cittadina di <strong>Sligo</strong> è il capoluogo di contea ed il centro più importante. Il nome
+                            della contea deriva direttamente da quello del proprio capoluogo, che a sua volta l'ha
+                            ereditato dal fiume che
+                            lo attraversa, oggi conosciuto come <strong>Garavogue</strong>. <em>Sligeach</em>, in gaelico, significa "ricco di
+                            conchiglie": questo perché
+                            spesso, per effetto delle maree, l'acqua marina entrava nel letto del fiume, lasciando nelle
+                            sponde e nelle zone
+                            circostanti conchiglie e resti di molluschi. <br>
+                            Di questo luogo possiamo citare: <strong>Ben Bulban</strong> e <strong>Glencar</strong>.
+                            <br>
+                        </div>
+                            <div class="dettagli-item">
+                                Questo luogo compare in:
+                                <br>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">La nascita di Oisin</a>
+                                <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Il bimbo rapito</a>
+                                <br>In questo luogo compaiono: <br>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Finn</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Oisin</a>
+                                <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Padre John Hart</a>
+                                </li>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </main>
+    </main>
+<!-- Footer Section -->
+<div class="footercon">
+    <div class="footerlinks">
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Chi siamo</h3>
+                <a href="#">Il progetto</a>
+                <a href="wpp.html">Web Project Plan</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footerlinkitems">
+                <h3>Contattaci</h3>
+                <a href="/">Contatti</a>
+                <a href="/">FAQ</a>
+                <a href="/">Unisciti a noi</a>
+            </div>
+        </div>
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Social Media</h3>
+                <a href="/">Facebook</a>
+                <a href="/">Instagram</a>
+                <a href="/">Twitter</a>
+                <a href="/">TikTok</a>
+            </div>
+        </div>
+    </div>
+    <section class="socialmedia">
+        <div class="socialmediawrap">
+            <p class="websiteright">Crystle Zanini - Faery Tails 2023.
+                <br>Creato il: 5.02.2023 | Ultimo aggiornamento: 14/02/2023
+            </p>
+            <div class="socialicons">
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+
+</html>

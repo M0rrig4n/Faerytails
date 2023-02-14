@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<!-- Metadati -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Descrizione del Leinster e delle contee contenute" />
+<meta name="keywords" content="testi, racconti, irlanda, fiaba, favola, mitologia, luoghi, divinità, protagonisti, divinita" />
+<meta name="author" content="Crystle Zanini" />
+<!-- Dublin Core -->
+<meta name="DC.Title" content="Leinster" />
+<meta name="DC.Creator" content="Crystle Zanini" />
+<meta name="DC.Subject" content="Raccolta, testi, mitologia, folklore, irlandese" />
+<meta name="DC.Description" content="Descrizione del Leinster e delle contee contenute" />
+<meta name="DC.Publisher" content="AlterVista" />
+<meta name="DC.Date" content="2023-02" />
+<meta name="DC.Type" content="Item, Collection" />
+<meta name="DC.Format" content="text/html, image" />
+<meta name="DC.Relation" content="isContainedIn Luoghi, Protagonisti e Miti, Contains Protagonisti e Miti" />
+<meta name="DC.Language" content="it" />
+<meta name="DC.Rights" content="Copyright 2023, Crystle Zanini. Tutti i diritti sono riservati" />
+<!-- Link al CSS e a Fontawesome -->
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/3aac9635b9.js" crossorigin="anonymous"></script>
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest">
+<!--Titolo-->
+    <title>Luoghi d'Irlanda - Leinster</title>
+    </head>
+    
+    <body>
+        <!-- Header con logo -->
+        <header>
+            <a href="../indexFaeTail.html">
+                <img class="logo" src="../img/logoFT-1.png" alt="Logo di Faery Tails" title="Logo di Faery Tails"></a>
+        </header>
+    
+        <!--- Navbar menu, navigazione principale --->
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li class="back-arrow"><a href="luoghi-irl.html"><i class="fa-solid fa-arrow-left"></i> Indietro</a>
+            <li>
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <!-- dropdown-->
+            <li class="dropbtn"><a href="cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i> Miti e fiabe
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                    <li><a href="#">Ciclo dell'Ulster</a></li>
+                    <li><a href="#">Ciclo Ossianico</a></li>
+                    <li><a href="#">Saghe leggendarie</a></li>
+                    <li><a href="#">Fiabe e folklore</a></li>
+                    <li><a href="#">Ballate</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i> Protagonisti
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="divinita.html">Divinità</a></li>
+                    <li><a href="#">Creature folkloriche</a></li>
+                    <li><a href="#">Eroi</a></li>
+                    <li><a href="#">Altro</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a class="active-page" href="#">Irlanda</a></li>
+                    <li><a href="#">Altri luoghi</a></li>
+                </ul>
+            </li>
+            <li class="ricerca">
+                <input type="text" placeholder="Cerca" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+    <!--- Navbar per media queries --->
+    <nav id="navbar-media">
+        <ul class="nav-menu">
+            <li class="back-arrow"><a href="luoghi-irl.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+            <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i></a></li>
+            <!-- dropdown-->
+            <li class="dropbtn"><a href=""><i class="fa-solid fa-dragon"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+                    <li><a href="#">Ciclo dell'Ulster</a></li>
+                    <li><a href="#">Ciclo Ossianico</a></li>
+                    <li><a href="#">Saghe leggendarie</a></li>
+                    <li><a href="#">Fiabe e folklore</a></li>
+                    <li><a href="#">Ballate</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a href="divinita.html">Divinità</a></li>
+                    <li><a href="#">Creature folkloriche</a></li>
+                    <li><a href="#">Eroi</a></li>
+                    <li><a href="#">Altro</a></li>
+                </ul>
+            </li>
+            <li class="dropbtn"><a href="map.html"><i class="fa-solid fa-location-dot"></i>
+                    <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-lista">
+                    <li><a class="active-page" href="luoghi-irl.html">Irlanda</a></li>
+                    <li><a href="#">Altri luoghi</a></li>
+                </ul>
+            </li>
+            <!-- Barra di ricerca -->
+            <li class="ricerca">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+    <!--Fine menu queries-->
+    <br>
+    <!-- Breadcrumbs -->
+    <ul class="breadcrumb">
+        <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi</a></li>
+        <li><a href="luoghi-irl.html"><i class="fa-solid fa-location-dot"></i> Irlanda</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> Provincia del Leinster</li>
+    </ul>
+    <!--- main -->
+    <main>
+        <section class="cm-cont">
+            <h2>Provincia del Leinster</h2>
+            <div class="cm-item">
+                <div class="nav-testo">
+                    <a href="connacht.html"><i class="fa-solid fa-arrow-left"></i>
+                        Provincia del Connacht</a>
+                    <a href="map.html#luoghi-lista"><i class="fa-solid fa-map-location-dot"></i>
+                        Tutti i luoghi</a>
+                    <a href="leinster.html">
+                        Provincia di Munster
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="indice">
+                    <p>Indice:</p>
+                    <ul>
+                        <li><a href="luoghi-irl.html#intro">Introduzione</a></li>
+                        <li><a href="connacht.html">Provincia del Connacht</a></li>
+                        <li><a class="active-page" href="#">Provincia del Leinster</a></li>
+                        <li><a href="#">Provincia di Munster</a></li>
+                        <li><a href="#">Altre zone irlandesi</a></li>
+                    </ul>
+                </div>
+
+                <div class="irlanda-cont">
+                    <br>
+                    <h3 id="leinster">Provincia del Leinster</h3>
+                    <p>
+                        Il <span class="importante">Leinster</span> è una delle quattro province
+                        della <strong>Repubblica d'Irlanda</strong>. È situata nella parte orientale dell'isola d'Irlanda e comprende la capitale del paese, <strong>Dublino</strong>. È la provincia più
+                        popolata di tutta l'isola. 
+                        La prima parte del nome <strong>Leinster</strong> deriva da <em>Laigin</em>, il nome di una tribù che un tempo abitava la zona. La seconda
+                        parte deriva dall'irlandese o dall'antico norreno, entrambi i quali si traducono in "terra" o "territorio". <br>
+                        Per saperne di più, visita la pagina <a class="link-item" href="https://it.wikipedia.org/wiki/Leinster" target="_blank"><i class="fa-brands fa-wikipedia-w"></i> Leinster</a>.                        
+                        <br>Le contee del <span class="importante">Leinster</span> sono undici: Carlow, <strong>Dublino</strong>, Kildare, Kilkenny, <strong>Laois</strong>, Longford, Louth, <strong>Meath</strong>, Offaly, Westmeath, Wexford e Wicklow.
+                        Qui tratteremo quelle più rilevanti per i racconti mostrati all'interno del sito:
+                    <ol>
+                        <li><a class="link-item importante" href="leinster.html#dublino">Dublino</a></li>
+                        <li><a class="link-item importante" href="leinster.html#laois">Laois</a></li>
+                        <li><a class="link-item importante" href="leinster.html#meath">Meath</a></li>
+                    </ol>
+                    
+                    </p>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="dublino">Contea di Dublino</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/contea-dublino.jpg" alt="La contea di Dublino" title="Contea di Dublino" />
+                            <span class="importante">Dublino</span> Dublino (in irlandese <em>Contae Bhaile Átha Cliath</em>) è una delle trentadue contee tradizionali dell'Irlanda. Al suo interno,
+                            come suggerisce il nome, è situata la capitale irlandese <strong>Dublino</strong>. Dal 1994 la provincia ha soltanto valenza culturale (per attività sportive e tradizionali) poiché è stata divisa in tre contee
+                            amministrative moderne: Dún Laoghaire-Rathdown, Fingal e South Dublin, nonché la città di Dublino che è amministrata
+                            autonomamente. Si parla recentemente di <strong>Dublin Region</strong> (<em>Réigiúin Átha Cliath</em>) per identificare il territorio della vecchia contea. Lo stemma della contea di Dublino è formato da uno scudo giallo o ocra nel quale è ben evidente un corvo su una
+                            staccionata. Il corvo era un simbolo ricorrente fra le popolazioni vichinghe, che per prime fondarono un insediamento
+                            nel luogo, mentre la staccionata richiama il nome gaelico del luogo ("guado dei graticci"). Il corvo è stato ripreso
+                            nello stemma della contea di Fingal.<br>
+                            Tra i luoghi rilevanti per noi possiamo citare: <strong>Dublino</strong>, <strong>Castleknock</strong>, <strong>Glanismole</strong> e <strong>Gowra</strong>.
+                        </div>    
+                            <div class="dettagli-item">
+                                    Questo luogo compare in:
+                                        <br>
+                                        <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Thomas Connolly e la Banshee</a>
+                                        <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Oisin e Niamh</a>
+                                        <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Una battaglia tra clan</a>
+                                    <br>In questo luogo compaiono: <br>
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Fianna</a> 
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Lia</a>
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Finn</a>
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Niamh</a>
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Oisin</a>
+                                        <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Oscar</a>
+                                    </li>
+                                </div>
+                        </p>
+                    </div><br>
+                    <div class="contea">
+                        <h3 id="laois">Contea di Laois</h3>
+                        <div class="contea-cont">
+                        <p>
+                            <img src="../img/maps/luoghi/laois.jpg" alt="Slieve Bloom nella contea di Laois" title="Slieve Bloom, contea di Laois" />
+                            <span class="importante">Laois</span> (talvolta scritto anche <em>Laoighis</em> e <em>Leix</em>) è una contea
+                            della Repubblica d'Irlanda, situata nella provincia del <strong>Leinster</strong>,
+                            nelle midlands dell'isola.
+                            Il territorio è pressoché pianeggiante o poco collinare ed attraversato da due fiumi di discreta importanza, eccetto per
+                            la catena montuosa delle <strong>Slieve Bloom</strong>, importanti in passato strategicamente e visitate oggi da naturalisti e turisti
+                            per i paesaggi incontaminati e rilassanti.
+                            Il Laois è l'unica contea d'Irlanda ad essere doppiamente senza sbocco sul mare, ovvero a non avere nessun tratto di
+                            costa e a confinare con altra contea affacciata sul mare. Il Laois ha avuto da sempre un particolare rapporto con i
+                            dominatori britannici. Fu creata infatti nel 1556 da <strong>Maria I
+                            d'Inghilterra</strong>, col nome di <em>Queen's county</em>: è stato soltanto dopo la Guerra d'indipendenza irlandese che ricevette
+                            l'attuale ma antico nome in gaelico: stessa sorte capitò a Portlaoise, county town e centro maggiore, che prima si
+                            chiamava Maryborough.
+                            <br>
+                        </div>
+                                <div class="dettagli-item">
+                                    Questo luogo compare in:
+                                    <br>
+                                    <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">I viaggi di Maeldun</a>
+                                    <br>In questo luogo compaiono: <br>
+                                    <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Maeldun</a>
+                                    </li>
+                                </div>
+                        </p>
+                    </div>
+                    <div class="contea">
+                        <div class="contea-cont">
+                        <h3 id="meath">Contea di Meath</h3>
+                        <p>
+                            <img src="../img/maps/luoghi/meath.jpg" alt="La contea di Meath" title="Contea di Meath" />
+                            <span class="importante">Meath</span> è una delle trentadue contee dell'Irlanda tradizionali. Vicinissima
+                            alla capitale <strong>Dublino</strong>, confina in senso orario ad est con il Mare d'Irlanda, a sud-est con la contea di Fingal, a sud
+                            con le contee di Kildare ed Offaly, ad ovest con quella di Westmeath, a nord-ovest con le due contee della Repubblica
+                            nell'Ulster, Cavan e Monaghan, e a nord-est infine con la piccola contea di Louth. Fa parte della provincia del
+                            <strong>Leinster</strong>, anche se anticamente formava gran parte di una provincia autonoma più piccola delle altre che portava lo
+                            stesso nome della contea attuale.
+                            Viene informalmente chiamata <em>the Royal county</em>, perché al suo interno è situata l'antica <strong>Collina Reale di Tara</strong>, sede
+                            dell'<em>High King of Ireland</em>. Il Meath è forse la contea più impregnata di connotati storici e tradizionali della sua
+                            nazione, per la presenza di siti archeologici straordinari come Newgrange e Tara. <br>
+                            <strong>Meath</strong>, viene dal gaelico irlandese <em>An Mhí</em>, che significa "il centro". Era infatti, a suo tempo, la provincia centrale
+                            dell'Irlanda. Il Meath è una contea quasi totalmente contraddistinta di vasti paesaggi collinari, che raggiungono una certa elevazione
+                            soltanto nelle parti occidentali, senza tuttavia perdere le caratteristiche di campagna e di territorio piuttosto dolce. Il fiume principale è il Boyne, che entra nel Meath nella sua estremità sud-occidentale e, scorrendo verso nord-est e
+                            Drogheda, lo divide in due parti abbastanza uguali in dimensioni.
+                            <br>Tra i luoghi rilevanti per noi, possiamo citare: <strong>Tara</strong>, <strong>Teltown</strong>, il <strong>Boyne</strong> e le <strong>Loughcrew Cairns</strong>.
+                            <br>
+                        </div>
+                        <div class="dettagli-item">
+                            Questo luogo compare in:
+                            <br>
+                            <i class="fa-solid fa-dragon"></i> <a class="link-item" href="milesi.html">Milesi-Introduzione</a>
+                            <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">Il giudizio di Amergin</a>
+                            <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">La sconfitta dei Tuátha dé Danaan</a>
+                            <i class="fa-solid fa-dragon"></i> <a class="link-item" href="#">La nascita di Cú Chulainn</a>
+                            <br>In questo luogo compaiono: <br>
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Miled</a> 
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Amergin</a> 
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Tuátha dé Danaan</a> 
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="dagda.html">Dagda</a>
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Setanta</a>
+                            <i class="fa-solid fa-hat-wizard"></i> <a class="link-item" href="#">Angus</a>
+                            </li>
+                        </div>
+                        </p>
+                    </div>
+                    
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    </main>
+<!-- Footer Section -->
+<div class="footercon">
+    <div class="footerlinks">
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Chi siamo</h3>
+                <a href="#">Il progetto</a>
+                <a href="wpp.html">Web Project Plan</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footerlinkitems">
+                <h3>Contattaci</h3>
+                <a href="/">Contatti</a>
+                <a href="/">FAQ</a>
+                <a href="/">Unisciti a noi</a>
+            </div>
+        </div>
+        <div class="footerlinkwrapper">
+            <div class="footerlinkitems">
+                <h3>Social Media</h3>
+                <a href="/">Facebook</a>
+                <a href="/">Instagram</a>
+                <a href="/">Twitter</a>
+                <a href="/">TikTok</a>
+            </div>
+        </div>
+    </div>
+    <section class="socialmedia">
+        <div class="socialmediawrap">
+            <p class="websiteright">Crystle Zanini - Faery Tails 2023.
+                <br>Creato il: 5.02.2023 | Ultimo aggiornamento: 14/02/2023
+            </p>
+            <div class="socialicons">
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="/" class="socialiconlink" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+
+</html>

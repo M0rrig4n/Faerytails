@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Metadati -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Racconti, fiabe e ballate del folklore e della mitologia irlandese" />
+  <meta name="keywords" content="testi, racconti, irlanda, fiaba, favola, mitologia, luoghi, divinità, protagonisti, divinita" />
+  <meta name="author" content="Crystle Zanini" />
+  <!-- Dublin Core -->
+  <meta name="DC.Title" content="Faery Tails" />
+  <meta name="DC.Creator" content="Crystle Zanini" />
+  <meta name="DC.Subject" content="Raccolta, testi, mitologia, folklore, irlandese" />
+  <meta name="DC.Description" content="Racconti, fiabe, ballate del folklore e della mitologia irlandese" />
+  <meta name="DC.Publisher" content="AlterVista" />
+  <meta name="DC.Date" content="2023-02" />
+  <meta name="DC.Type" content="Collection" />
+  <meta name="DC.Format" content="text/html, image" />
+  <meta name="DC.Relation" content="Contains Miti, Protagonisti e Luoghi" />
+  <meta name="DC.Language" content="it" />
+  <meta name="DC.Rights" content="Copyright 2023, Crystle Zanini. Tutti i diritti sono riservati" />
+  <!-- Link al CSS e a Fontawesome -->
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/3aac9635b9.js" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!--Titolo-->
+  <title>Faery Tails</title>
+</head>
+<body>
+  <!-- Header con logo -->
+  <header>
+    <a href="indexFaeTail.html">
+     <img class="logo" src="img/logoFT-1.png" alt="Logo di Faery Tails" title="Logo di Faery Tails"></a>
+  </header>
+ 
+  <!--- Navbar menu, navigazione principale --->
+  <nav id="navbar">
+  <ul class="nav-menu">
+    <li class="active-page"><i class="fa-solid fa-house"></i> Home</li>
+    <!-- dropdown-->
+      <li class="dropbtn"><a href="pages/cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i> Miti e fiabe
+        <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-lista">
+          <li><a href="pages/ciclo-mitologico.html">Ciclo Mitologico</a></li>
+          <li><a href="#">Ciclo dell'Ulster</a></li>
+          <li><a href="#">Ciclo Ossianico</a></li>
+          <li><a href="#">Saghe leggendarie</a></li>
+          <li><a href="#">Fiabe e folklore</a></li>
+          <li><a href="#">Ballate</a></li>
+        </ul>
+    </li>
+    <li class="dropbtn"><a href="pages/protagonisti.html"><i class="fa-solid fa-hat-wizard"></i> Protagonisti
+        <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-lista">
+          <li><a href="pages/divinita.html">Divinità</a></li>
+          <li><a href="#">Creature folkloriche</a></li>
+          <li><a href="#">Eroi</a></li>
+          <li><a href="#">Altro</a></li>
+        </ul>
+    </li>
+  <li class="dropbtn"><a href="pages/map.html"><i class="fa-solid fa-location-dot"></i> Luoghi
+      <i class="fa fa-caret-down"></i></a>
+    <ul class="dropdown-lista">
+      <li><a href="pages/luoghi-irl.html">Irlanda</a></li>
+      <li><a href="#">Altri luoghi</a></li>
+    </ul>
+  </li>
+    <!-- Barra di ricerca -->
+    <li class="ricerca">
+  <input type="text" placeholder="Cerca" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+</ul>
+</nav>
+<!--- Navbar per media queries --->
+<nav id="navbar-media">
+  <ul class="nav-menu">
+    <li class="active-page"><i class="fa-solid fa-house"></i></li>
+    <!-- dropdown-->
+    <li class="dropbtn"><a href="pages/cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="pages/ciclo-mitologico.html">Ciclo Mitologico</a></li>
+        <li><a href="#">Ciclo dell'Ulster</a></li>
+        <li><a href="#">Ciclo Ossianico</a></li>
+        <li><a href="#">Saghe leggendarie</a></li>
+        <li><a href="#">Fiabe e folklore</a></li>
+        <li><a href="#">Ballate</a></li>
+      </ul>
+    </li>
+    <li class="dropbtn"><a href="pages/protagonisti.html"><i class="fa-solid fa-hat-wizard"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="pages/divinita.html">Divinità</a></li>
+        <li><a href="#">Creature folkloriche</a></li>
+        <li><a href="#">Eroi</a></li>
+        <li><a href="#">Altro</a></li>
+      </ul>
+    </li>
+    <li class="dropbtn"><a href="pages/map.html"><i class="fa-solid fa-location-dot"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="pages/luoghi-irl.html">Irlanda</a></li>
+        <li><a href="#">Altri luoghi</a></li>
+      </ul>
+    </li>
+    <!-- Barra di ricerca -->
+    <li class="ricerca">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+  </ul>
+</nav>
+<!--Fine menu queries-->
+<br>
+  <!--- Main -->
+  <main>
+  <!-- Sezione con Carosello -->
+    <section class="carosello">
+      <!--Primo item del carosello-->
+      <div class="slide fade">
+        <div class="car-cont">
+          <div class="testo-car center">
+            <p>
+              Scopri la magia del <em>mondo <span class="importante">celtico</span></em> grazie alla nostra raccolta di <span class="importante">leggende</span> e <span class="importante">miti</span> in <strong>italiano</strong>!
+            </p> 
+            <p>
+              Scarica i racconti per leggerli ed ascoltarli <span class="importante">gratuitamente</span> ovunque tu sia!
+            </p>
+              <button class="car-btn"><a href="pages/cat-miti-fiabe.html">Esplora il catalogo!</a></button>
+          </div>
+          <img class="img-car center" src="img/tale.jpg" alt="Illustrazione raffigurante una donna fatata che difende un cerbiatto dalle frecce di un cacciatore" title="Fairytale by Warwick Goble" />
+        </div>
+      </div>
+      <!--Secondo item del carosello-->
+        <div class="slide fade">
+          <div class="car-cont">
+            <div class="testo-car center">
+              <p>
+                Vivi la storia d’<span class="importante">Irlanda</span> attraverso i diversi <strong>cicli leggendari</strong> e scopri i mitici
+                  <span class="importante">protagonisti</span> che ti accompagneranno in questo viaggio
+              </p>
+              <p>
+                Lasciati ispirare da <span class="importante">divinità</span>, entità magiche, eroi, semi-dei e <span class="importante">creature fatate!</span>
+              </p>
+              <button class="car-btn"><a href="pages/protagonisti.html">Vienili a conoscere!</a></button>
+            </div>
+            <img class="img-car center" src="img/leprechaun.jpg" alt="Illustrazione di un leprecauno" title="The Leprechaun by Warwick Goble" />
+          </div>
+          </div>
+        <!--Terzo item del carosello-->
+        <div class="slide fade">
+          <div class="car-cont">
+            <div class="testo-car center">
+              <p>
+                Esplora la terra d’<span class="importante">Irlanda</span> riscoprendo i luoghi più importanti della <span class="importante">mitologia</span>
+              </p>
+              <p>
+                Viaggia con la <span class="importante">fantasia</span> e lasciati sorprendere!
+              </p>
+              <button class="car-btn"><a href="pages/map.html">Mettiti in viaggio!</a></button>
+            </div>
+            <img class="img-car center" src="img/cliffs.jpg" class="center" alt="Le Cliffs of Moher" title="Cliffs of Moher" />
+          </div>
+        </div>
+      <!--Bottoni slide precedente e successiva-->
+      <a class="prev center" onclick="plusSlide(-1)"> <i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+      <a class="next center" onclick="plusSlide(1)"> <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+      <!--Elementi di navigazione del carosello-->
+      <div class="center">
+        <span class="punto" onclick="slideCorrente(1)"></span>
+        <span class="punto" onclick="slideCorrente(2)"></span>
+        <span class="punto" onclick="slideCorrente(3)"></span>
+      </div>
+    </section>    
+    <!--Fine carosello-->
+
+    <!-- Contenuto pagina -->
+    <!--Prima sezione con ultima aggiunta, racconti popolari e newsletter-->
+    <div class="container1">
+    <!--Ultima aggiunta-->
+      <div class="item recente">
+          <div class="title">
+            <h2 class="tit-cat">L'ultimo racconto aggiunto</h2>
+            <h3>Cú Chulainn e la cattura del Toro Bruno</h3>
+          </div>
+          <div class="item-cont">
+            <div class="item-img">
+              <img class="sticky-img" src="img/cuchulainzoom.jpg" alt="Cú Chulainn pronto ad attaccare"title="Cú Chulainn sul carro" />
+              <div class="download sticky-img">
+                <a href="#"><span>Scarica come PDF</span> <i class="fa-solid fa-download"></i></a>
+                <br>
+                <a href="#"><span>Scarica come MP3</span> <i class="fa-solid fa-download"></i></a>
+              </div>
+            </div>
+          <div class="mito">
+            <p>Dopo diversi combattimenti, dai quali <a class="link-item" href="#">Cú Chulainn</a> esce sempre vittorioso, affronta <a class="link-item" href="#">Fergus</a>, convinto da <a class="link-item"href="#">Maev</a> a combattere l'amico. I due, però, non intendono combattere l'uno con l'altro per nessun motivo e <strong>Cú Chulainn</strong>, d'accordo con <strong>Fergus</strong>, finge di fuggire davanti a lui con la promessa che egli farà lo stesso quando gli verrà chiesto. Più avanti si vedrà come questo impegno venne mantenuto.
+            <span class="tit-par">La cattura del Toro Bruno.</span> Mentre <strong>Cú Chulainn</strong> combatte con il famoso <strong>Natchrantal</strong>, <strong>Maev</strong>, con un terzo esercito, compie un'improvvisa incursione nell'Ulster e, saccheggiando e devastando lungo la via, penetra fino a Dunseverick, sulla costa settentrionale.
+            In precedenza, il <a class="link-item" href="#">Toro Bruno</a>, che originariamente risiedeva nel <strong>Quelgny</strong> (contea di Down), era stato avvertito dalla <a class="link-item" href="#">Mórrígan</a>
+            di scappare, e si era rifugiato con la sua mandria di mucche in una gola dello <strong>Slievegallion</strong>, nella contea di Armagh. Qui lo trovano i predoni di 
+            <strong>Maev</strong> e trionfanti lo portano via insieme a tutta la mandria, passando vicino a <strong>Cú Chulainn</strong> sulla via del ritorno. <strong>Cú Chulainn</strong>
+            uccide il capo della scorta, <strong>Buic</strong>, figlio di Banblai, ma non riesce a riprendere il toro e ciò, narra la leggenda, <em>fu il più grande smacco 
+              inferto a <strong>Cú Chulainn</strong> durante il corso della razzia</em>.
+          </p>
+            <button class="btn-mito"><a href="#">Scopri di più</a></button>
+            <span class="sotto-nav">
+              <a href="#"><i class="fa-solid fa-arrow-left"></i>
+              <span>Leggi il capitolo precedente</span></a>
+            </span>
+          </div>
+
+          </div>
+      </div>
+
+      <!--Racconti popolari--> 
+      <div class="item rac-pop">
+        <div class="title-pop">
+          <h4>I racconti più cliccati</h4>
+          <img src="img/trisk.png" alt="Icona del triskel celtico" title="Triskel" />
+        </div>
+        <div class="pop-cont">
+          <div class="pop-list">
+          <ol>
+            <li>
+              <a href="pages/milesi.html">L'invasione dei Milesi
+              <i class="fa-solid fa-circle-exclamation"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">Le imprese di Kilhwch</a>
+            </li>
+            <li>
+              <a href="#">Il viaggio di Maeldun</a>
+            </li>
+            <li>
+              <a href="#">Le leggende di Maon, figlio di Ailill</a>
+            </li>
+            <li>
+              <a href="#">Conan mac Morna</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      </div>
+
+      <!--Newsletter-->
+      <div class="item news">
+        <div class="title-news">
+          <h4>Iscriviti alla newsletter</h4>
+          <p>Rimani aggiornato sulle nuove aggiunte!</p>
+          <form action="action_page.php">
+          <div class="inp-news">
+            <input type="text" placeholder="Indirizzo e-mail" name="mail" required>
+          </div>
+          <div class="btn-news">
+            <a href="#"><input type="submit" value="Iscriviti"></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--Seconda sezione con mito e protagonista del mese-->
+    <div class="container2">
+    <!--Mito del mese-->
+      <div class="item2 rac-mese">
+        <div class="title">
+            <h2 class="tit-cat">Il mito del mese</h2>
+            <h3>La venuta di Lugh</h3>
+          </div>
+          <div class="rac-cont">
+            <div class="rac-img">
+              <img class="sticky-img" src="img/lughmain.jpg" alt="Lugh sul suo cavallo" title="Lugh"/>
+              <div class="download sticky-img">
+                <a href="#"><span>Scarica come PDF <i class="fa-solid fa-download"></i></span></a>
+                <br>
+                <a href="#"><span>Scarica come MP3 <i class="fa-solid fa-download"></i></span></a>
+            </div>
+            </div>
+            <div class="testo-item2">
+              <p>Nel mito appare ora una figura nuova: niente meno che <a class="link-item" href="#">Lugh</a>, figlio di <a class="link-item" href="#">Kian</a>, il dio Sole per eccellenza di tutto il mondo celtico, del quale ancora oggi è possibile identificare il nome in molti siti storici dell'Europa continentale. Per spiegare la sua comparsa bisogna lasciare per un momento le antiche fonti manoscritte, che in questo caso sono incomplete e devono essere integrate da un racconto popolare scoperto e raccolto dalla viva voce di un narratore del diciannovesimo secolo dallo studioso di antichità irlandesi <em>O'Donovan</em>.
+              </p>
+            </div>
+            </div>
+              <button class="btn-mito">
+                <a href="#">Scopri di più</a>
+              </button>
+        </div>
+
+        <!--Protagonista del mese-->
+        <div class="item2 per-mese">
+          <div class="title">
+            <h2 class="tit-cat">Il protagonista del mese</h2>
+            <h3>La Mórrígan</h3>
+          </div>
+          <div class="rac-cont">
+            <div class="rac-img">
+              <img id="morr" class="sticky-img"src="img/morr.jpg" alt="Mórrígan, la grande regina" title="La Mórrígan"/>
+              <div class="download sticky-img">
+                <a href="#"><span>Scarica come PDF <i class="fa-solid fa-download"></i></span></a>
+                <br>
+                <a href="#"><span>Scarica come MP3 <i class="fa-solid fa-download"></i></span></a>
+              </div>
+            </div>
+            <div class="testo-item2">
+              <p>Esisteva una dea straordinaria, la <a class="link-item" href="#">Mórrígan</a>, che sembra incarnare tutti gli orrori e le perversità delle potenze soprannaturali. Amava scatenare la guerra tra gli uomini, combatteva in mezzo a loro assumendo varie forme terrificanti e spesso volteggiava con le sembianze di un corvo sopra gli eserciti impegnati a combattere. Una volta si presentò a <a class="link-item" href="#">Cú Chulainn</a> con l'aspetto di una fanciulla mortale e gli offrì il suo amore. Egli lo rifiutò e da allora, per gran parte della sua vita, la dea lo perseguitò. Una volta, mentre combatteva con lui in mezzo a un torrente, si trasformò prima in un serpente d'acqua e poi in un ammasso di alghe per cercare di intrappolarlo e farlo annegare. Egli, però, la sopraffece e la ferì e in seguito la dea gli fu amica. La notte precedente la battaglia che fu fatale a <strong>Cú Chulainn</strong>, la <strong>Mórrígan</strong> passò da <em>Emain Macha</em> e ruppe il timone del carro dell'eroe per metterlo in guardia.
+            </div>
+            </div>
+              <button class="btn-mito">
+                <a href="#">Scopri di più</a>
+              </button>
+        </div>
+    </div>
+    <!--Fine contenuto pagina-->
+  </main>
+<!-- Footer Section -->
+    <div class="footercon">
+        <div class="footerlinks">
+            <div class="footerlinkwrapper">
+                <div class="footerlinkitems">
+                    <h3>Chi siamo</h3>
+                    <a href="#">Il progetto</a>
+                    <a href="pages/wpp.html">Web Project Plan</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="footerlinkitems">
+                    <h3>Contattaci</h3>
+                    <a href="/">Contatti</a>
+                    <a href="/">FAQ</a>
+                    <a href="/">Unisciti a noi</a>
+                </div>
+            </div>
+            <div class="footerlinkwrapper">
+                <div class="footerlinkitems">
+                    <h3>Social Media</h3>
+                    <a href="/">Facebook</a>
+                    <a href="/">Instagram</a>
+                    <a href="/">Twitter</a>
+                    <a href="/">TikTok</a>
+                </div>
+            </div>
+        </div>
+        <section class="socialmedia">
+            <div class="socialmediawrap">
+                <p class="websiteright">Crystle Zanini - Faery Tails 2023. 
+                  <br>Creato il: 5.02.2023 | Ultimo aggiornamento: 14/02/2023</p>
+                <div class="socialicons">
+                    <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="/" class="socialiconlink" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+     </div>
+</body>
+
+<script type="text/javascript" src="js/main.js"></script>
+</html>

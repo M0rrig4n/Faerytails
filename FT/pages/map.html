@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Metadati -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Descrizione e presentazione dei Luoghi" />
+  <meta name="keywords" content="testi, racconti, irlanda, fiaba, favola, mitologia, luoghi, divinità, protagonisti, divinita" />
+  <meta name="author" content="Crystle Zanini" />
+  <!-- Dublin Core -->
+  <meta name="DC.Title" content="Luoghi" />
+  <meta name="DC.Creator" content="Crystle Zanini" />
+  <meta name="DC.Subject" content="Raccolta, testi, mitologia, folklore, irlandese" />
+  <meta name="DC.Description" content="Descrizione e presentazione dei Luoghi" />
+  <meta name="DC.Publisher" content="AlterVista" />
+  <meta name="DC.Date" content="2023-02" />
+  <meta name="DC.Type" content="Collection" />
+  <meta name="DC.Format" content="text/html, image" />
+  <meta name="DC.Relation" content="Contains Luoghi, Miti e Protagonisti" />
+  <meta name="DC.Language" content="it" />
+  <meta name="DC.Rights" content="Copyright 2023, Crystle Zanini. Tutti i diritti sono riservati" />
+  <!-- Link al CSS e a Fontawesome -->
+  <link href="../css/style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/3aac9635b9.js" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest">
+  <!--Titolo-->
+  <title>Luoghi</title>
+  </head>
+  
+  <body>
+    <!-- Header con logo -->
+    <header>
+      <a href="../indexFaeTail.html">
+        <img class="logo" src="../img/logoFT-1.png" alt="Logo di Faery Tails" title="Logo di Faery Tails"></a>
+    </header>
+  
+    <!--- Navbar menu, navigazione principale --->
+  <nav id="navbar">
+  <ul class="nav-menu">
+    <li class="back-arrow"><a href="../indexFaeTail.html"><i class="fa-solid fa-arrow-left"></i> Indietro</a>
+    <li>
+    <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+    <!-- dropdown-->
+      <li class="dropbtn"><a href="cat-miti-fiabe.html"><i class="fa-solid fa-dragon"></i> Miti e fiabe
+        <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-lista">
+          <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+          <li><a href="#">Ciclo dell'Ulster</a></li>
+          <li><a href="#">Ciclo Ossianico</a></li>
+          <li><a href="#">Saghe leggendarie</a></li>
+          <li><a href="#">Fiabe e folklore</a></li>
+          <li><a href="#">Ballate</a></li>
+        </ul>
+    </li>
+    <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i> Protagonisti
+        <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-lista">
+          <li><a href="divinita.html">Divinità</a></li>
+          <li><a href="#">Creature folkloriche</a></li>
+          <li><a href="#">Eroi</a></li>
+          <li><a href="#">Altro</a></li>
+        </ul>
+    </li>
+    <li class="dropbtn"><a class="active-page" href="map.html"><i class="fa-solid fa-location-dot"></i> Luoghi
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="luoghi-irl.html">Irlanda</a></li>
+        <li><a href="#">Altri luoghi</a></li>
+      </ul>
+    </li>
+    <li class="ricerca">
+  <input type="text" placeholder="Cerca" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+</ul>
+</nav>
+<!--- Navbar per media queries --->
+<nav id="navbar-media">
+  <ul class="nav-menu">
+    <li class="back-arrow"><a href="../indexFaeTail.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+    <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i></a></li>
+    <!-- dropdown-->
+    <li class="dropbtn"><a href=""><i class="fa-solid fa-dragon"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="ciclo-mitologico.html">Ciclo Mitologico</a></li>
+        <li><a href="#">Ciclo dell'Ulster</a></li>
+        <li><a href="#">Ciclo Ossianico</a></li>
+        <li><a href="#">Saghe leggendarie</a></li>
+        <li><a href="#">Fiabe e folklore</a></li>
+        <li><a href="#">Ballate</a></li>
+      </ul>
+    </li>
+    <li class="dropbtn"><a href="protagonisti.html"><i class="fa-solid fa-hat-wizard"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="divinita.html">Divinità</a></li>
+        <li><a href="#">Creature folkloriche</a></li>
+        <li><a href="#">Eroi</a></li>
+        <li><a href="#">Altro</a></li>
+      </ul>
+    </li>
+    <li class="dropbtn"><a class="active-page" href="map.html"><i class="fa-solid fa-location-dot"></i>
+        <i class="fa fa-caret-down"></i></a>
+      <ul class="dropdown-lista">
+        <li><a href="luoghi-irl.html">Irlanda</a></li>
+        <li><a href="#">Altri luoghi</a></li>
+      </ul>
+    </li>
+    <!-- Barra di ricerca -->
+    <li class="ricerca">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+  </ul>
+</nav>
+<!--Fine menu queries-->
+<br>
+<!-- Breadcrumbs -->
+<!--- main -->
+  <main>
+    <ul class="breadcrumb">
+      <li><a href="../indexFaeTail.html"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><i class="fa-solid fa-location-dot"></i> Luoghi</li>
+    </ul>    
+    <section class="big-cont-map">
+      <h2>Mappa degli eventi</h2>
+        <div class="grid-map">
+          <div class="text-map">
+            <div class="tab">
+              <button class="tablinks" onmouseover="openMap(event, 'ciclo-invasioni'), changeImage()">Ciclo Mitologico</button>
+              <button class="tablinks" onmouseover="openMap(event, 'ciclo-conor'), changeImage()">Ciclo di Conor</button>
+              <button class="tablinks" onmouseover="openMap(event, 'ciclo-ossianico'), changeImage()">Ciclo Ossianico</button>
+              <button class="tablinks" onmouseover="openMap(event, 'saghe-leggendarie'), changeImage()">Saghe Leggendarie</button>
+              <button class="tablinks" onmouseover="openMap(event, 'fiabe-folklore'), changeImage()">Fiabe e Leggende</button>
+              <button class="tablinks" onmouseover="openMap(event, 'ballate'), changeImage()">Ballate</button>
+            </div>
+            <!--ciclo delle invasioni-->
+            <div id="ciclo-invasioni" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="#">Oilean Thoraigh (Isola di Tory):</a> luogo in cui si trovava la roccaforte del potere dei <a class="link-item" href="#">Fomori</a>, con a
+                capo <a class="link-item" href="#">Balor</a>. Oggigiorno, infatti, esiste un luogo chiamato <em>Balor’s Fort</em> (Roccaforte di Balor). Le scogliere dell’isola colano a
+                picco sull’Atlantico al largo della costa del Donegal.</li>
+                <li><a class="link-item" href="connacht.html">Connacht:</a> i <a class="link-item" href="#">Tuatha de Danaan</a> appaiono per la prima volta nell’accampamento fortificato a <strong>Moyrein</strong>, nel Connacht occidentale,
+                nascosti da una nube magica.</li>
+                <li><a class="link-item" href="connacht.html#mayo">Piana di Moytura, Cong: </a>si trova nel sud della contea di Mayo ed è il luogo in cui è avvenuta la battaglia tra <a class="link-item" href="#">Firbolg</a> e <strong>Tuatha de Danaan</strong>. Alla
+                fine dello scontro si giunse a una conclusione ragionevole: i <strong>Firbolg</strong> avrebbero ottenuto il Connacht, mentre il resto
+                dell’Irlanda sarebbe passata sotto la mano dei <strong>Danaan</strong>.</li>
+                <li><a class="link-item" href="leinster.html#meath">Teltown (Teltin, dalla dea Telta): </a>luogo della grande battaglia tra <strong>Danaan</strong> e <a class="link-item" href="milesi.html">Milesi</a>. Qui i figli di <a class="link-item" href="#">Miled</a>, ultimi invasori dell’isola di origine mitica,
+                assumono la sovranità dell’Irlanda. Dopo la battaglia i <a class="link-item" href="#">Tuatha de Danaan</a> non se ne andarono ma, grazie alle loro arti
+                magiche, si avvolsero in un velo di invisibilità che potevano rimuovere e mettere a piacere. Da allora esistono due
+                Irlanda: quella soprannaturale e quella terrena.</li>
+                <li><a class="link-item" href="leinster.html#meath">Loughcrew Cairns: </a>tumuli nel <em>Westmeath</em> in cui si ritene sia stato sepolto il grande re milese <strong>Ollav Fola</strong>
+                . Egli diede al paese un codice legislativo e divise il territorio tra capi provinciali, che rispondevano a un re supremo insediato a <em>Tara</em>
+                . Stabilire se sia appartenuto alla realtà più di altre figure di origine mitica è difficile.
+              </li>
+               <li><a class="link-item" href="leinster.html#sligo">Tara: </a>luogo principale del Ciclo delle Invasioni, in cui si trovava il re supremo d'Irlanda.</li>
+              </ol>
+            </div>
+            <!--ciclo di conor -->
+            <div id="ciclo-conor" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="#">Armagh (Emain Macha o Ard Macha):</a> città fondata durante il regno di <strong>Kimbay</strong>, nel
+                      ciclo precedente, ma fondamentale per quello di Conor. Emain Macha si trova infatti nell’Ulster ed il suo nome
+                      significa <em>La spilla di Macha </em>, figlia del principe Red Hugh e regina. La città è sede di figure
+                      importanti come il re <a class="link-item" href="">Conor Mac Nessa</a> e dell’ordine cavalleresco il <a class="link-item" href="">Ramo Rosso</a>.</li>
+                <li><a class="link-item" href="leinster.html#meath">Boyne:</a> fiume sulle quali rive venne trovato il bambino <a class="link-item" href="">Setanta</a>. E’ anche il luogo del
+                  tumulo e palazzo fatato di <a class="link-item" href="">Angus</a>.</li>
+                <li><a class="link-item" href="#">Dùn Dealgan:</a> zona assegnata in eredità a <strong>Setanta</strong> e sua successiva dimora e
+                  fortezza.</li>
+                <li><a class="link-item" href="#">Isola di Skye, Scozia:</a> la <em>Terra delle Ombre</em> in cui viveva <a class="link-item" href="">Skatha</a>. In questa zona
+                  oggi si trovano le <em>Cime di Cuchulain</em>.</li>
+                <li><a class="link-item" href="#">Slievegallion:</a> luogo in cui avviene il rapimento del <strong>Toro Bruno </strong>. Si sviluppa
+                  così l’importantissima <a class="link-item" href="">Tain Bò Cualgné</a> (<em>La cattura del Toro Bruno</em>), che ha termine nella piana di
+                  <strong>Aei</strong>.</li>
+              </ol>
+            </div>
+            <!--ciclo ossianico-->
+            <div id="ciclo-ossianico" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="#">Killarney, Midlands:</a> nel sud dell’Irlanda, zona in cui si svolge la maggior parte dell’azione del
+                  ciclo di <a class="link-item" href="#">Oisin</a> e <a class="link-item" href="">Finn</a>.</li>
+                <li><a class="link-item" href="leinster.html#dublino">Knock (Castleknock):</a> luogo della battaglia di Knock tra il Clan <strong>Bascna</strong> (di cui
+                  faceva parte il padre di <strong>Finn</strong>) ed il Clan <strong>Morna</strong>, che si contendevano il comando
+                  dei <a class="link-item" href="#">Fianna</a>. Vittorioso uscì il clan <strong>Morna</strong>, di cui faceva parte <a class="link-item" href="#">Lia</a>, signore di
+                  <em>Luachar</em> nel Connacht.</li>
+                <li><a class="link-item" href="connacht.html#sligo">Ben Bulban, contea di Sligo:</a> luogo in cui, durante una battuta di caccia, <strong>Finn</strong>
+                  trovò il ragazzo che poi chiamò <strong>Oisin</strong> (<em>cerbiatto</em>).</li>
+                <li><a class="link-item" href="leinster.html#dublino">Glanismole:</a> o <em>Valle dei Tordi </em>. Luogo in cui <strong>Oisin</strong> incontra gli uomini
+                  a cui chiede informazioni su <strong>Finn</strong> e i <strong>Fianna</strong>. Qui scende da cavallo e spezza
+                  l’incantesimo di <a class="link-item"href="#">Niamh</a>.</li>
+                <li><a class="link-item" href="leinster.html#dublino">Gowra (Gabhra):</a> luogo che oggi sopravvive nel nome di Garristown, nella contea di Dublino. Qui si
+                  ebbe la battaglia decisiva tra il Clan <strong>Bascna</strong> e Clan <strong>Morna</strong>. I
+                  <strong>Fianna</strong> vennero quasi completamente sterminati e <a class="link-item" href="">Oscar</a> fu ucciso.</li>
+              </ol>
+            </div>
+            <!-- saghe leggendarie -->
+            <div id="saghe-leggendarie" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="leinster.html#laois">Laois:</a> luogo da cui hanno origine i predoni che uccisero il padre di <a class="link-item" href="#">Maeldun</a>.</li>
+                <li><a class="link-item" href="#">Doocloon:</a> zona in cui venne bruciata una chiesa sopra la testa di <strong>Ailill</strong>, che
+                  venne ucciso. </li>
+                <li><a class="link-item" href="#">Narberth:</a> sede del castello di <a>Pwyll</a>e del tumulo di <strong>Arberth</strong>. Secondo la
+                  leggenda, a chiunque si fosse seduto su di esso sarebbe capitata un’avventura insolita: sarebbe stato percosso e
+                  ferito oppure avrebbe assisito a un prodigio.</li>
+                <li><a class="link-item" href="#">Harlech:</a> sede della corte del re dell’<em>Isola dei Forti</em>, la Britannia, <a class="link-item" href="#">Bendigeid
+                    Vran</a>, ossia <strong>Bran il Benedetto</strong>. Insieme a lui si trovavano suo fratello
+                  <strong>Manawyddan</strong>, figlio di <a class="link-item" href="#">Llyr</a>, sua sorella <a class="link-item" href="#">Branwen</a> e i due figli,
+                  <strong>Nissyen</strong> ed <strong>Evnissyen</strong>, che sua madre <strong>Penardun</strong> aveva dato a
+                  <strong>Eurosswyd</strong>.</li>
+                <li><a class="link-item" href="#">Aberrfraw:</a> luogo in cui vennero celebrate le nozze tra <strong>Branwen</strong> e
+                  <a class="link-item" href="#">Mathlwch</a>. Per il banchetto la compagnia si riunì sotto alcuni padiglioni, poiché nessuna casa avrebbe mai
+                  potuto contenere le gigantesche forme di <strong>Bran</strong>. Dopo allegri festeggiamenti,
+                  <strong>Branwen</strong> diventò la sposa del re d’Irlanda.</li>
+              </ol>
+            </div>
+            <!--fiabe e leggende-->
+            <div id="fiabe-folklore" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="connacht.html#galway">Dunmore, contea di Galway:</a> luogo in cui si svolge il <a>racconto</a> del suonatore di cornamusa e
+                del suo incontro con il <a class="link-item" href="#">Pooka</a>.</li>
+                <li><a class="link-item" href="leinster.html#dublino">Dublino:</a> ambientazione dell’incontro tra <a class="link-item" href=”#”><em>Thomas Connolly e la Banshee</em></a>. Viene
+                citata la chiesa di <em>Marlborough Street</em> e il <em>Dodderher</em>.</li>
+                <li><a class="link-item" href="#">Castello di Carrigogunniel:</a> nella contea di Limerick. Qui si svolse la grande festa del racconto
+                <a class="link-item" href=”#”><em>L’uomo e il suo padrone</em></a>.</li>
+                <li><a class="link-item" href="#">Limerick:</a> in un villaggio qui vicino Owney e Owney-na-peak vivono un magico e pericoloso incontro
+                con i gatti fatati di un cimitero in <a class="link-item" href="#">Owney e Owney-na-peak</a></li>
+                <li><a class="link-item" href="connacht.html">Connacht:</a> in questa zona si tenne la festa per <a class="link-item" href="#">Seanchan</a>, bardo che era appena stato fatto
+                  <em>Ard-Filé</em>.</li>
+                <li><a class="link-item" href="#">Lismore:</a> area di residenza del ricco fattore <a class="link-item" href="#">Tom Bourke</a>.</li>
+                <li><a class="link-item" href="#">Smerwick:</a> sulla spiaggia <strong>Dick Fitzgerald</strong> incontra una <a class="link-item" href="#">Sirena </a>nel
+                  racconto <a class="link-item" href="#"><em>La signora di Gollerus</em></a>.
+              </ol>
+            </div>
+            <!-- ballate -->
+            <div id="ballate" class="tabcontent">
+              <ol>
+                <li><a class="link-item" href="#">Columbkille:</a> nella contea di Kilkenny. Luogo attraversato dal <em><a class="link-item" href="#">vecchio sovrano</em></a> su
+                  un ponte di candida nebbia</em>.</li>
+                <li><a class="link-item" href="#">Coloony: </a>città di provenienza del prete <strong>Padre John Hart</strong>.</li>
+                <li><a class="link-item" href="#">Glencar: </a>insieme ad altre zone della contea di Sligo, è una nota area di folletti, citata anche
+                  in <a class="link-item" href="#"><em>Il bimbo rapito</em></a>. Si dice che ci sia un tratto di rocce dove, se uno si addormenta, rischia di
+                  risvegliarsi privi di senno, perché i folletti gli hanno rubato l’anima.</li>
+                <li><a class="link-item" href="#">Sleamish Hill (<em>Slieve Mish</em>):</a> monte nella contea di Antrim. Viene
+                  citato nella ballata <a class="link-item" href="#">La fonte fatata di Lagnanay</a>, in cui il popolo fatato viene descritto come pericoloso e
+                  inaffidabile.</li>
+              </ol>
+            </div>
+        </div>
+          <!--mappa-->
+          <div class="mappa">
+            <img src="../img/maps/cm-mappa.png" id="mappa-img" alt="Placeholder per la mappa, passa sopra ai tab per mostrarla!" title="Placeholder per la mappa" />
+          </div>
+        </div>
+        </section>
+
+
+        <div class="cm-item">
+          <h3 class="tit-cat">Lista dei luoghi</h3>
+          <div id="luoghi-lista">
+            <div class="lista-cont">
+              <h4><i class="fa-solid fa-location-dot"></i> <a class="link-item" href="luoghi-irl.html">Irlanda</a></h4>
+              <ul>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i> Provincia del Connacht</button>
+                <div class="panel">
+                  <li><a class="link-item" href="connacht.html#sligo">Ben Bulban</a></li>
+                  <li><a class="link-item" href="connacht.html">Coloony</a></li>
+                  <li><a class="link-item" href="connacht.html">Connacht</a></li>
+                  <li><a class="link-item" href="connacht.html#galway">Dunmore</a></li>
+                  <li><a class="link-item" href="connacht.html">Glencar</a></li>
+                  <li><a class="link-item" href="connacht.html">Moyrein</a></li>
+                  <li><a class="link-item" href="connacht.html#mayo">(Piana di) Moytura, Cong</a></li>
+                  <li><a class="link-item" href="connacht.html#sligo">Sligo</a></li>
+                </div>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i></i> Provincia di Leinster</button>
+                <div class="panel">
+                  <li><a class="link-item" href="leinster.html#meath">Boyne</a></li>
+                  <li><a class="link-item" href="leinster.html#dublino">Castleknock</a></li>
+                  <li><a class="link-item" href="leinster.html#dublino">Dublino</a></li>
+                  <li><a class="link-item" href="leinster.html#dublino">Glanismole</a></li>
+                  <li><a class="link-item" href="leinster.html#dublino">Gowra (Gabhra)</a></li>
+                  <li><a class="link-item" href="leinster.html#laois">Laois</a></li>
+                  <li><a class="link-item" href="leinster.html#meath">Loughcrew Cairns</a></li>
+                  <li><a class="link-item" href="leinster.html#meath">Tara</a></li>
+                  <li><a class="link-item" href="leinster.html#meath">Teltown</a></li>
+                </div>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i></i> Provincia di Munster</button>
+                <div class="panel">
+                  <li><a class="link-item" href="#">Killarney</a></li>
+                  <li><a class="link-item" href="#">Smerwick</a></li>
+                </div>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i></i> Altre zone irlandesi</button>
+                <div class="panel">
+                  <li><a class="link-item" href="#">Carrigogunniel</a></li>
+                  <li><a class="link-item" href="#">Columbkille</a></li>
+                  <li><a class="link-item" href="#">Doocloon</a></li>
+                  <li><a class="link-item" href="#">Dùn Dealgan</a></li>
+                  <li><a class="link-item" href="#">Limerick</a></li>
+                  <li><a class="link-item" href="#">Lismore</a></li>
+                  <li><a class="link-item" href="#">Oilean Thoraigh (Isola di Tory)</a></li>
+                  <li><a class="link-item" href="#">Sleamish Hill</a></li>
+                </div>
+              </ul>
+            </div>
+            <div class="lista-cont">
+              <h4><i class="fa-solid fa-location-dot"></i> <a class="link-item" href="#">Altri luoghi</a></h4>
+              <ul>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i> Ulster</button>
+                <div class="panel">
+                  <li><a class="link-item" href="#">Armagh</a></li>
+                  <li><a class="link-item" href="#">Slievegallion</a></li>
+                </div>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i></i> Galles</button>
+                <div class="panel">
+                  <li><a class="link-item" href="#">Aberrfraw</a></li>
+                  <li><a class="link-item" href="#">Harlech</a></li>
+                  <li><a class="link-item" href="#">Narberth</a></li>
+                </div>
+                <button class="accordion"><i class="fa-solid fa-location-dot"></i></i> Scozia</button>
+                <div class="panel">
+                  <li><a class="link-item" href="#">Isola di Skye</a></li>
+                </div>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+  </main>
+<!-- Footer Section -->
+<div class="footercon">
+  <div class="footerlinks">
+    <div class="footerlinkwrapper">
+      <div class="footerlinkitems">
+        <h3>Chi siamo</h3>
+        <a href="#">Il progetto</a>
+        <a href="wpp.html">Web Project Plan</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="footerlinkitems">
+        <h3>Contattaci</h3>
+        <a href="/">Contatti</a>
+        <a href="/">FAQ</a>
+        <a href="/">Unisciti a noi</a>
+      </div>
+    </div>
+    <div class="footerlinkwrapper">
+      <div class="footerlinkitems">
+        <h3>Social Media</h3>
+        <a href="/">Facebook</a>
+        <a href="/">Instagram</a>
+        <a href="/">Twitter</a>
+        <a href="/">TikTok</a>
+      </div>
+    </div>
+  </div>
+  <section class="socialmedia">
+    <div class="socialmediawrap">
+      <p class="websiteright">Crystle Zanini - Faery Tails 2023.
+        <br>Creato il: 5.02.2023 | Ultimo aggiornamento: 14/02/2023
+      </p>
+      <div class="socialicons">
+        <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="/" class="socialiconlink" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="/" class="socialiconlink" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+<script>
+//Accordion
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  } 
+</script>
+
+</html>
